@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 12:38:30 by iezzam            #+#    #+#             */
-/*   Updated: 2025/01/29 18:06:58 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/01/30 13:22:48 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,17 +35,45 @@ int	parse_philo(int ac, char **av, t_philo *philo)
 }
 
 
+// int main(int ac, char **av)
+// {
+// 	t_philo philo;
+
+// 	if (parse_philo(ac, av, &philo) == 1)
+// 		return 0;
+// 	fprintf(stderr, "number_of_philosophers: %d\n", philo.number_of_philosophers);
+// 	fprintf(stderr, "time_to_die: %d\n", philo.time_to_die);
+// 	fprintf(stderr, "time_to_eat: %d\n", philo.time_to_eat);
+// 	fprintf(stderr, "time_to_sleep: %d\n", philo.time_to_sleep);
+// 	fprintf(stderr, "eat_count: %d\n", philo.eat_count);
+// 	// philo_init(&philo);
+// 	return 0;
+// }
+
+
+
 int main(int ac, char **av)
 {
-	t_philo philo;
+    t_philo philo;
+    pthread_t monitor;
 
-	if (parse_philo(ac, av, &philo) == 1)
-		return 0;
-	fprintf(stderr, "number_of_philosophers: %d\n", philo.number_of_philosophers);
-	fprintf(stderr, "time_to_die: %d\n", philo.time_to_die);
-	fprintf(stderr, "time_to_eat: %d\n", philo.time_to_eat);
-	fprintf(stderr, "time_to_sleep: %d\n", philo.time_to_sleep);
-	fprintf(stderr, "eat_count: %d\n", philo.eat_count);
-	// philo_init(&philo);
-	return 0;
+    if (parse_philo(ac, av, &philo))
+        return (1);
+
+    if (philo_init(&philo))
+        return (1);
+
+    pthread_create(&monitor, NULL, monitor_routine, &philo);
+    pthread_join(monitor, NULL);
+
+    // Cleanup
+    for (int i = 0; i < philo.number_of_philosophers; i++)
+        pthread_join(philo.philosophers[i].thread, NULL);
+    for (int i = 0; i < philo.number_of_philosophers; i++)
+        pthread_mutex_destroy(&philo.forks[i]);
+    pthread_mutex_destroy(&philo.print_lock);
+    free(philo.forks);
+    free(philo.philosophers);
+
+    return (0);
 }

@@ -4,6 +4,10 @@ CFLAGS = -Wall -Wextra -Werror  -O3
 RM = rm -f
 
 SRCS =	./mandatory/src/philo.c \
+		./mandatory/src/components/monitor.c \
+		./mandatory/src/components/philo_init.c \
+		./mandatory/src/components/philo_routine.c \
+		./mandatory/src/components/philo_utils.c \
 		./mandatory/src/lib/ft_atof.c \
 		./mandatory/src/lib/ft_atoi.c \
 		./mandatory/src/lib/ft_putchar.c \
