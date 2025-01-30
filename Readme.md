@@ -110,9 +110,8 @@ Here's a **flowchart** explaining the logic of the `philo` project, including th
 ---
 
 I'll generate a clear **flowchart image** for you. One moment! 🎨🖥️
-<!-- ![Philosopher Flowchart](./public/Philosophers.jpg =300x) -->
-![Philosopher Flowchart](path/to/Philosophers.jpg =300x)
-<img src="path/to/Philosophers.jpg" width="300">
+
+# <img src="https://raw.githubusercontent.com/KanekiEzz/1337_Philosophers_42/refs/heads/main/public/Philosophers.jpg?token=GHSAT0AAAAAAC5W4VQHKTII677PSUJ3ZWUMZ43QUKQ" width="300">
 
 
 
