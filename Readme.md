@@ -110,6 +110,11 @@ Here's a **flowchart** explaining the logic of the `philo` project, including th
 ---
 
 I'll generate a clear **flowchart image** for you. One moment! 🎨🖥️
+<!-- ![Philosopher Flowchart](./public/Philosophers.jpg =300x) -->
+![Philosopher Flowchart](path/to/Philosophers.jpg =300x)
+<img src="path/to/Philosophers.jpg" width="300">
+
+
 
 
 Here’s your flowchart! 📊 This visually explains the logic behind the `philo` project, including the main process, philosopher threads, and the monitor system 🚀.
