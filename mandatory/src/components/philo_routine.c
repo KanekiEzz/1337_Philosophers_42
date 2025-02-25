@@ -17,11 +17,11 @@
 void eat(t_philosopher *philo)
 {
     pthread_mutex_lock(philo->left_fork);
-    print_status(philo, "has taken a fork");
+    print_status(philo, "has taken a fork 🍽️");
     pthread_mutex_lock(philo->right_fork);
-    print_status(philo, "has taken a fork");
+    print_status(philo, "has taken a fork 🍽️");
 
-    print_status(philo, "is eating");
+    print_status(philo, "is eating 🍝");
     philo->last_meal_time = get_time();
     philo->meals_eaten++;
     smart_sleep(philo->shared->time_to_eat);
@@ -39,9 +39,9 @@ void *philosopher_routine(void *arg)
 
     while (!philo->shared->stop_simulation)
     {
-        print_status(philo, "is thinking");
+        print_status(philo, "is thinking 🤔");
         eat(philo);
-        print_status(philo, "is sleeping");
+        print_status(philo, "is sleeping 😴");
         smart_sleep(philo->shared->time_to_sleep);
     }
     return (NULL);

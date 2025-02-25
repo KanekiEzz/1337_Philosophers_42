@@ -13,12 +13,12 @@
 typedef struct s_philosopher
 {
     int             id;
+    pthread_t       thread;
     int             meals_eaten;
     long long       last_meal_time;
     pthread_mutex_t *left_fork;
     pthread_mutex_t *right_fork;
     struct s_philo  *shared;
-    pthread_t       thread;
 }   t_philosopher;
 
 typedef struct s_philo

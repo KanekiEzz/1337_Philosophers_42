@@ -24,7 +24,7 @@ void *monitor_routine(void *arg)
         {
             if (get_time() - philo->philosophers[i].last_meal_time > philo->time_to_die)
             {
-                print_status(&philo->philosophers[i], "died");
+                print_status(&philo->philosophers[i], "died 💀");
                 philo->stop_simulation = 1;
                 break;
             }

@@ -41,9 +41,11 @@ double	check_point(const char *str)
 	{
 		if (*str == '.')
 			point++;
+		if (*str == '-')
+			return (0.0);
 		str++;
 	}
-	if (point > 1)
+	if (point >= 1)
 		return (0.0);
 	return (1);
 }
