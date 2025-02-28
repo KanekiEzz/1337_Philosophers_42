@@ -34,6 +34,7 @@ typedef struct s_philo
     pthread_mutex_t print_lock;
     pthread_mutex_t stop_mutex;
     pthread_mutex_t shared_mutex;
+    pthread_mutex_t simulation_mutex;
     pthread_mutex_t *forks;
     t_philosopher   *philosophers;
 }   t_philo;

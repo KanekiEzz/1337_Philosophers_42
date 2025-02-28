@@ -12,8 +12,6 @@
 
 #include "../../include/philo.h"
 
-
-
 /* This function returns the current time in milliseconds.*/
 // ou
 // tv.tv_sec * 1000 converts seconds to milliseconds
@@ -24,14 +22,6 @@ long long get_time(void)
     gettimeofday(&tv, NULL);
     return (tv.tv_sec * 1000 + tv.tv_usec / 1000);
 }
-// size_t	time_now(void)
-// {
-// 	struct timeval	time;
-
-// 	if (gettimeofday(&time, NULL) == -1)
-// 		write(2, "gettimeofday() error\n", 22);
-// 	return (time.tv_sec * 1000 + time.tv_usec / 1000);
-// }
 
 void smart_sleep(long long time)
 {
@@ -45,7 +35,10 @@ void smart_sleep(long long time)
 void print_status(t_philosopher *philo, char *msg)
 {
     pthread_mutex_lock(&philo->shared->print_lock);
+    pthread_mutex_lock(&philo->shared->stop_mutex);
     if (!philo->shared->stop_simulation)
         printf("%lld %d %s\n", get_time() - philo->shared->start_time, philo->id, msg);
+    pthread_mutex_unlock(&philo->shared->stop_mutex);
     pthread_mutex_unlock(&philo->shared->print_lock);
 }
+

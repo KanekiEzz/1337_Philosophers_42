@@ -48,51 +48,57 @@ int parse_philo(int ac, char **av, t_philo *philo)
 // 	// philo_init(&philo);
 // 	return 0;
 // }
-
 void philo_cleanup(t_philo *philo)
 {
-	int i;
+    int i;
 
-	i = 0;
-	while (i < philo->number_of_philosophers)
-		pthread_join(philo->philosophers[i++].thread, NULL);
-	i = 0;
-	while (i < philo->number_of_philosophers)
-	{
-		pthread_mutex_destroy(&philo->forks[i]);
-		pthread_mutex_destroy(&philo->philosophers[i].meal_mutex);
-		i++;
-	}
-	pthread_mutex_destroy(&philo->print_lock);
-	pthread_mutex_destroy(&philo->stop_mutex);
-	free(philo->forks);
-	free(philo->philosophers);
+    i = 0;
+    while (i < philo->number_of_philosophers)
+        pthread_join(philo->philosophers[i++].thread, NULL);
+
+    i = 0;
+    while (i < philo->number_of_philosophers)
+    {
+        pthread_mutex_destroy(&philo->forks[i]);
+        pthread_mutex_destroy(&philo->philosophers[i].meal_mutex);
+        i++;
+    }
+    
+    pthread_mutex_destroy(&philo->print_lock);
+    pthread_mutex_destroy(&philo->stop_mutex);
+    pthread_mutex_destroy(&philo->simulation_mutex);
+    pthread_mutex_destroy(&philo->shared_mutex);
+    
+    free(philo->forks);
+    free(philo->philosophers);
 }
 
 int main(int ac, char **av)
 {
-	t_philo philo;
-	pthread_t monitor;
+    t_philo philo;
+    pthread_t monitor;
 
-	if (parse_philo(ac, av, &philo))
-		return (1);
-	if (philo_init(&philo))
-
-		return (1);
-	if (philo.number_of_philosophers == 1)
-		philo_cleanup(&philo);
-	else
-	{
-		pthread_create(&monitor, NULL, monitor_routine, &philo);
-		pthread_join(monitor, NULL);
-		int i = 0;
-		while (i < philo.number_of_philosophers)
-			pthread_join(philo.philosophers[i++].thread, NULL);
-		while (i < philo.number_of_philosophers)
-			pthread_mutex_destroy(&philo.forks[i++]);
-		pthread_mutex_destroy(&philo.print_lock);
-		free(philo.forks);
-		free(philo.philosophers);
-	}
-	return (0);
+    if (parse_philo(ac, av, &philo))
+        return (1);
+    if (philo_init(&philo))
+        return (1);
+        
+    if (philo.number_of_philosophers == 1)
+    {
+        philo_cleanup(&philo);
+    }
+    else
+    {
+        if (pthread_create(&monitor, NULL, monitor_routine, &philo) != 0)
+        {
+            philo_cleanup(&philo);
+            return (1);
+        }
+        
+        pthread_join(monitor, NULL);
+        
+        philo_cleanup(&philo);
+    }
+    
+    return (0);
 }

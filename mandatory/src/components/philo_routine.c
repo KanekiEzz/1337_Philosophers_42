@@ -14,18 +14,20 @@
 
 void eat(t_philosopher *philo)
 {
-    pthread_mutex_lock(philo->left_fork);
-    print_status(philo, "has taken a fork 🍽️");
-    if (philo->shared->number_of_philosophers == 1)
+    if (philo->id % 2 == 0)
     {
-        smart_sleep(philo->shared->time_to_die);
-        print_status(philo, "dided 💀");
-        pthread_mutex_unlock(philo->left_fork);
-        return;
+        pthread_mutex_lock(philo->right_fork);
+        print_status(philo, "has taken a fork 🍽️");
+        pthread_mutex_lock(philo->left_fork);
     }
-    pthread_mutex_lock(philo->right_fork);
-    print_status(philo, "has taken a fork 🍽️");
+    else
+    {
+        pthread_mutex_lock(philo->left_fork);
+        print_status(philo, "has taken a fork 🍽️");
+        pthread_mutex_lock(philo->right_fork);
+    }
 
+    print_status(philo, "has taken a fork 🍽️");
     pthread_mutex_lock(&philo->meal_mutex);
     print_status(philo, "is eating 🍝");
     philo->last_meal_time = get_time();
@@ -37,30 +39,27 @@ void eat(t_philosopher *philo)
     pthread_mutex_unlock(philo->left_fork);
 }
 
-// void eat(t_philosopher *philo)
-// {
-//     pthread_mutex_lock(philo->left_fork);
-//     print_status(philo, "has taken a fork 🍽️");
-//     pthread_mutex_lock(philo->right_fork);
-//     print_status(philo, "has taken a fork 🍽️");
-
-//     print_status(philo, "is eating 🍝");
-//     philo->last_meal_time = get_time();
-//     philo->meals_eaten++;
-//     smart_sleep(philo->shared->time_to_eat);
-
-//     pthread_mutex_unlock(philo->right_fork);
-//     pthread_mutex_unlock(philo->left_fork);
-// }
+void eat_one_philo(t_philosopher *philo)
+{
+    if (philo->shared->number_of_philosophers == 1)
+    {
+        print_status(philo, "has taken a fokr 🍽️");
+        smart_sleep(philo->shared->time_to_die);
+        print_status(philo, "dided 💀");
+    }
+    return ;
+}
 
 void *philosopher_routine(void *arg)
 {
-    t_philosopher *philo = (t_philosopher *)arg;
+    t_philosopher *philo;
+    
+    philo = (t_philosopher *)arg;
     int should_stop;
+    
     if (philo->id % 2 == 0)
         usleep(100);
-
-    while (!philo->shared->stop_simulation)
+    while (1)
     {
         pthread_mutex_lock(&philo->shared->stop_mutex);
         should_stop = philo->shared->stop_simulation;
@@ -69,7 +68,7 @@ void *philosopher_routine(void *arg)
             break;
         if (philo->shared->number_of_philosophers == 1)
         {
-            eat(philo);
+            eat_one_philo(philo);
             return NULL;
         }
         eat(philo);
