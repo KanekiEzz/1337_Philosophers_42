@@ -18,6 +18,7 @@ typedef struct s_philosopher
     long long       last_meal_time;
     pthread_mutex_t *left_fork;
     pthread_mutex_t *right_fork;
+    pthread_mutex_t meal_mutex;
     struct s_philo  *shared;
 }   t_philosopher;
 
@@ -30,8 +31,10 @@ typedef struct s_philo
     int             eat_count;
     long long       start_time;
     int             stop_simulation;
-    pthread_mutex_t *forks;
     pthread_mutex_t print_lock;
+    pthread_mutex_t stop_mutex;
+    pthread_mutex_t shared_mutex;
+    pthread_mutex_t *forks;
     t_philosopher   *philosophers;
 }   t_philo;
 

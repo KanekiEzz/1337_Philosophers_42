@@ -1,0 +1,1936 @@
+0 5 is thinking 🤔
+0 5 has taken a fork 🍽️
+0 5 has taken a fork 🍽️
+0 5 is eating 🍝
+0 3 is thinking 🤔
+0 3 has taken a fork 🍽️
+0 3 has taken a fork 🍽️
+0 3 is eating 🍝
+0 1 is thinking 🤔
+0 2 is thinking 🤔
+0 2 has taken a fork 🍽️
+1 4 is thinking 🤔
+200 5 is sleeping 😴
+200 1 has taken a fork 🍽️
+200 3 is sleeping 😴
+200 4 has taken a fork 🍽️
+200 4 has taken a fork 🍽️
+200 4 is eating 🍝
+200 2 has taken a fork 🍽️
+200 2 is eating 🍝
+400 3 is thinking 🤔
+400 3 has taken a fork 🍽️
+400 3 has taken a fork 🍽️
+400 3 is eating 🍝
+400 2 is sleeping 😴
+400 1 has taken a fork 🍽️
+400 1 is eating 🍝
+400 4 is sleeping 😴
+400 5 is thinking 🤔
+400 5 has taken a fork 🍽️
+600 4 is thinking 🤔
+600 5 has taken a fork 🍽️
+600 2 is thinking 🤔
+600 2 has taken a fork 🍽️
+600 1 is sleeping 😴
+600 5 is eating 🍝
+600 3 is sleeping 😴
+600 4 has taken a fork 🍽️
+600 2 has taken a fork 🍽️
+600 2 is eating 🍝
+800 2 is sleeping 😴
+800 3 is thinking 🤔
+800 3 has taken a fork 🍽️
+800 4 has taken a fork 🍽️
+800 1 is thinking 🤔
+800 1 has taken a fork 🍽️
+800 1 has taken a fork 🍽️
+800 4 is eating 🍝
+800 5 is sleeping 😴
+800 1 is eating 🍝
+1000 1 is sleeping 😴
+1000 4 is sleeping 😴
+1000 3 has taken a fork 🍽️
+1000 3 is eating 🍝
+1000 2 is thinking 🤔
+1000 2 has taken a fork 🍽️
+1000 5 is thinking 🤔
+1000 5 has taken a fork 🍽️
+1000 5 has taken a fork 🍽️
+1000 5 is eating 🍝
+1200 3 is sleeping 😴
+1200 2 has taken a fork 🍽️
+1200 2 is eating 🍝
+1200 1 is thinking 🤔
+1200 5 is sleeping 😴
+1200 1 has taken a fork 🍽️
+1200 4 is thinking 🤔
+1200 4 has taken a fork 🍽️
+1200 4 has taken a fork 🍽️
+1200 4 is eating 🍝
+1400 5 is thinking 🤔
+1400 3 is thinking 🤔
+1400 4 is sleeping 😴
+1400 5 has taken a fork 🍽️
+1400 2 is sleeping 😴
+1400 1 has taken a fork 🍽️
+1400 1 is eating 🍝
+1400 3 has taken a fork 🍽️
+1400 3 has taken a fork 🍽️
+1400 3 is eating 🍝
+1600 3 is sleeping 😴
+1600 4 is thinking 🤔
+1600 4 has taken a fork 🍽️
+1600 1 is sleeping 😴
+1600 5 has taken a fork 🍽️
+1600 5 is eating 🍝
+1600 2 is thinking 🤔
+1600 2 has taken a fork 🍽️
+1600 2 has taken a fork 🍽️
+1600 2 is eating 🍝
+1800 1 is thinking 🤔
+1800 3 is thinking 🤔
+1800 3 has taken a fork 🍽️
+1800 2 is sleeping 😴
+1800 5 is sleeping 😴
+1800 4 has taken a fork 🍽️
+1800 4 is eating 🍝
+1800 1 has taken a fork 🍽️
+1800 1 has taken a fork 🍽️
+1800 1 is eating 🍝
+2000 1 is sleeping 😴
+2000 4 is sleeping 😴
+2000 2 is thinking 🤔
+2000 2 has taken a fork 🍽️
+2000 3 has taken a fork 🍽️
+2000 3 is eating 🍝
+2000 5 is thinking 🤔
+2000 5 has taken a fork 🍽️
+2000 5 has taken a fork 🍽️
+2000 5 is eating 🍝
+2200 3 is sleeping 😴
+2200 2 has taken a fork 🍽️
+2200 2 is eating 🍝
+2200 1 is thinking 🤔
+2200 4 is thinking 🤔
+2200 4 has taken a fork 🍽️
+2200 5 is sleeping 😴
+2200 4 has taken a fork 🍽️
+2200 4 is eating 🍝
+2200 1 has taken a fork 🍽️
+2400 5 is thinking 🤔
+2400 2 is sleeping 😴
+2400 1 has taken a fork 🍽️
+2400 1 is eating 🍝
+2400 3 is thinking 🤔
+2400 3 has taken a fork 🍽️
+2400 4 is sleeping 😴
+2400 3 has taken a fork 🍽️
+2400 3 is eating 🍝
+2400 5 has taken a fork 🍽️
+2600 2 is thinking 🤔
+2600 4 is thinking 🤔
+2600 1 is sleeping 😴
+2600 3 is sleeping 😴
+2600 2 has taken a fork 🍽️
+2600 2 has taken a fork 🍽️
+2600 2 is eating 🍝
+2600 5 has taken a fork 🍽️
+2600 5 is eating 🍝
+2600 4 has taken a fork 🍽️
+2800 1 is thinking 🤔
+2800 1 has taken a fork 🍽️
+2800 3 is thinking 🤔
+2800 5 is sleeping 😴
+2800 4 has taken a fork 🍽️
+2800 4 is eating 🍝
+2800 2 is sleeping 😴
+2800 1 has taken a fork 🍽️
+2800 1 is eating 🍝
+2800 3 has taken a fork 🍽️
+3000 5 is thinking 🤔
+3000 5 has taken a fork 🍽️
+3000 4 is sleeping 😴
+3000 3 has taken a fork 🍽️
+3000 3 is eating 🍝
+3000 2 is thinking 🤔
+3000 2 has taken a fork 🍽️
+3000 1 is sleeping 😴
+3000 5 has taken a fork 🍽️
+3000 5 is eating 🍝
+3200 4 is thinking 🤔
+3200 1 is thinking 🤔
+3200 1 has taken a fork 🍽️
+3200 3 is sleeping 😴
+3200 2 has taken a fork 🍽️
+3200 2 is eating 🍝
+3200 5 is sleeping 😴
+3200 4 has taken a fork 🍽️
+3200 4 has taken a fork 🍽️
+3200 4 is eating 🍝
+3400 3 is thinking 🤔
+3400 4 is sleeping 😴
+3400 2 is sleeping 😴
+3400 1 has taken a fork 🍽️
+3400 1 is eating 🍝
+3400 3 has taken a fork 🍽️
+3400 3 has taken a fork 🍽️
+3400 3 is eating 🍝
+3400 5 is thinking 🤔
+3400 5 has taken a fork 🍽️
+3600 4 is thinking 🤔
+3600 4 has taken a fork 🍽️
+3600 3 is sleeping 😴
+3600 2 is thinking 🤔
+3600 1 is sleeping 😴
+3600 5 has taken a fork 🍽️
+3600 5 is eating 🍝
+3600 2 has taken a fork 🍽️
+3600 2 has taken a fork 🍽️
+3600 2 is eating 🍝
+3800 3 is thinking 🤔
+3800 5 is sleeping 😴
+3800 4 has taken a fork 🍽️
+3800 4 is eating 🍝
+3800 1 is thinking 🤔
+3800 1 has taken a fork 🍽️
+3800 2 is sleeping 😴
+3800 3 has taken a fork 🍽️
+3800 1 has taken a fork 🍽️
+3800 1 is eating 🍝
+4000 2 is thinking 🤔
+4000 3 has taken a fork 🍽️
+4000 3 is eating 🍝
+4000 4 is sleeping 😴
+4000 5 is thinking 🤔
+4000 5 has taken a fork 🍽️
+4000 1 is sleeping 😴
+4000 5 has taken a fork 🍽️
+4000 5 is eating 🍝
+4000 2 has taken a fork 🍽️
+4200 4 is thinking 🤔
+4200 5 is sleeping 😴
+4200 3 is sleeping 😴
+4200 2 has taken a fork 🍽️
+4200 2 is eating 🍝
+4200 4 has taken a fork 🍽️
+4200 1 is thinking 🤔
+4200 1 has taken a fork 🍽️
+4200 4 has taken a fork 🍽️
+4200 4 is eating 🍝
+4400 4 is sleeping 😴
+4400 3 is thinking 🤔
+4400 3 has taken a fork 🍽️
+4400 3 has taken a fork 🍽️
+4400 3 is eating 🍝
+4400 2 is sleeping 😴
+4400 5 is thinking 🤔
+4400 5 has taken a fork 🍽️
+4400 1 has taken a fork 🍽️
+4400 1 is eating 🍝
+4600 4 is thinking 🤔
+4600 5 has taken a fork 🍽️
+4600 5 is eating 🍝
+4600 3 is sleeping 😴
+4600 1 is sleeping 😴
+4600 2 is thinking 🤔
+4600 2 has taken a fork 🍽️
+4600 2 has taken a fork 🍽️
+4600 2 is eating 🍝
+4600 4 has taken a fork 🍽️
+4800 2 is sleeping 😴
+4800 5 is sleeping 😴
+4800 4 has taken a fork 🍽️
+4800 4 is eating 🍝
+4800 3 is thinking 🤔
+4800 3 has taken a fork 🍽️
+4800 1 is thinking 🤔
+4800 1 has taken a fork 🍽️
+4800 1 has taken a fork 🍽️
+4800 1 is eating 🍝
+5000 5 is thinking 🤔
+5000 4 is sleeping 😴
+5000 3 has taken a fork 🍽️
+5000 3 is eating 🍝
+5000 2 is thinking 🤔
+5000 1 is sleeping 😴
+5000 5 has taken a fork 🍽️
+5000 5 has taken a fork 🍽️
+5000 5 is eating 🍝
+5000 2 has taken a fork 🍽️
+5200 4 is thinking 🤔
+5200 1 is thinking 🤔
+5200 3 is sleeping 😴
+5200 2 has taken a fork 🍽️
+5200 4 has taken a fork 🍽️
+5200 2 is eating 🍝
+5200 5 is sleeping 😴
+5200 1 has taken a fork 🍽️
+5200 4 has taken a fork 🍽️
+5200 4 is eating 🍝
+5400 5 is thinking 🤔
+5400 3 is thinking 🤔
+5400 4 is sleeping 😴
+5400 5 has taken a fork 🍽️
+5400 2 is sleeping 😴
+5400 3 has taken a fork 🍽️
+5400 3 has taken a fork 🍽️
+5400 3 is eating 🍝
+5400 1 has taken a fork 🍽️
+5400 1 is eating 🍝
+5600 3 is sleeping 😴
+5600 4 is thinking 🤔
+5600 4 has taken a fork 🍽️
+5600 1 is sleeping 😴
+5600 5 has taken a fork 🍽️
+5600 5 is eating 🍝
+5600 2 is thinking 🤔
+5600 2 has taken a fork 🍽️
+5600 2 has taken a fork 🍽️
+5600 2 is eating 🍝
+5800 1 is thinking 🤔
+5800 3 is thinking 🤔
+5800 2 is sleeping 😴
+5800 5 is sleeping 😴
+5800 4 has taken a fork 🍽️
+5800 4 is eating 🍝
+5800 1 has taken a fork 🍽️
+5800 1 has taken a fork 🍽️
+5800 3 has taken a fork 🍽️
+5800 1 is eating 🍝
+6000 5 is thinking 🤔
+6000 2 is thinking 🤔
+6000 5 has taken a fork 🍽️
+6000 4 is sleeping 😴
+6000 3 has taken a fork 🍽️
+6000 3 is eating 🍝
+6000 1 is sleeping 😴
+6000 2 has taken a fork 🍽️
+6000 5 has taken a fork 🍽️
+6000 5 is eating 🍝
+6200 4 is thinking 🤔
+6200 1 is thinking 🤔
+6200 3 is sleeping 😴
+6200 2 has taken a fork 🍽️
+6200 2 is eating 🍝
+6200 4 has taken a fork 🍽️
+6200 5 is sleeping 😴
+6200 1 has taken a fork 🍽️
+6200 4 has taken a fork 🍽️
+6200 4 is eating 🍝
+6400 4 is sleeping 😴
+6400 3 is thinking 🤔
+6400 2 is sleeping 😴
+6400 1 has taken a fork 🍽️
+6400 1 is eating 🍝
+6400 3 has taken a fork 🍽️
+6400 3 has taken a fork 🍽️
+6400 3 is eating 🍝
+6400 5 is thinking 🤔
+6400 5 has taken a fork 🍽️
+6600 2 is thinking 🤔
+6600 4 is thinking 🤔
+6600 3 is sleeping 😴
+6600 4 has taken a fork 🍽️
+6600 1 is sleeping 😴
+6600 2 has taken a fork 🍽️
+6600 2 has taken a fork 🍽️
+6600 2 is eating 🍝
+6600 5 has taken a fork 🍽️
+6600 5 is eating 🍝
+6800 5 is sleeping 😴
+6800 2 is sleeping 😴
+6800 3 is thinking 🤔
+6800 3 has taken a fork 🍽️
+6800 4 has taken a fork 🍽️
+6800 4 is eating 🍝
+6800 1 is thinking 🤔
+6800 1 has taken a fork 🍽️
+6800 1 has taken a fork 🍽️
+6800 1 is eating 🍝
+7000 5 is thinking 🤔
+7000 1 is sleeping 😴
+7000 2 is thinking 🤔
+7000 2 has taken a fork 🍽️
+7000 4 is sleeping 😴
+7000 3 has taken a fork 🍽️
+7000 3 is eating 🍝
+7000 5 has taken a fork 🍽️
+7000 5 has taken a fork 🍽️
+7000 5 is eating 🍝
+7200 4 is thinking 🤔
+7200 1 is thinking 🤔
+7200 5 is sleeping 😴
+7200 3 is sleeping 😴
+7200 1 has taken a fork 🍽️
+7200 2 has taken a fork 🍽️
+7200 2 is eating 🍝
+7200 4 has taken a fork 🍽️
+7200 4 has taken a fork 🍽️
+7200 4 is eating 🍝
+7400 2 is sleeping 😴
+7400 1 has taken a fork 🍽️
+7400 1 is eating 🍝
+7400 5 is thinking 🤔
+7400 3 is thinking 🤔
+7400 3 has taken a fork 🍽️
+7400 4 is sleeping 😴
+7400 5 has taken a fork 🍽️
+7400 3 has taken a fork 🍽️
+7400 3 is eating 🍝
+7600 2 is thinking 🤔
+7600 3 is sleeping 😴
+7600 4 is thinking 🤔
+7600 4 has taken a fork 🍽️
+7600 1 is sleeping 😴
+7600 2 has taken a fork 🍽️
+7600 2 has taken a fork 🍽️
+7600 2 is eating 🍝
+7600 5 has taken a fork 🍽️
+7600 5 is eating 🍝
+7800 5 is sleeping 😴
+7800 4 has taken a fork 🍽️
+7800 4 is eating 🍝
+7800 3 is thinking 🤔
+7800 2 is sleeping 😴
+7800 3 has taken a fork 🍽️
+7800 1 is thinking 🤔
+7800 1 has taken a fork 🍽️
+7800 1 has taken a fork 🍽️
+7800 1 is eating 🍝
+8000 5 is thinking 🤔
+8000 1 is sleeping 😴
+8000 4 is sleeping 😴
+8000 3 has taken a fork 🍽️
+8000 3 is eating 🍝
+8000 5 has taken a fork 🍽️
+8000 5 has taken a fork 🍽️
+8000 5 is eating 🍝
+8000 2 is thinking 🤔
+8000 2 has taken a fork 🍽️
+8200 4 is thinking 🤔
+8200 1 is thinking 🤔
+8200 5 is sleeping 😴
+8200 1 has taken a fork 🍽️
+8200 2 has taken a fork 🍽️
+8200 2 is eating 🍝
+8200 4 has taken a fork 🍽️
+8200 4 has taken a fork 🍽️
+8200 3 is sleeping 😴
+8200 4 is eating 🍝
+8400 2 is sleeping 😴
+8400 1 has taken a fork 🍽️
+8400 1 is eating 🍝
+8400 3 is thinking 🤔
+8400 3 has taken a fork 🍽️
+8400 3 has taken a fork 🍽️
+8400 3 is eating 🍝
+8400 4 is sleeping 😴
+8400 5 is thinking 🤔
+8400 5 has taken a fork 🍽️
+8600 1 is sleeping 😴
+8600 5 has taken a fork 🍽️
+8600 5 is eating 🍝
+8600 2 is thinking 🤔
+8600 2 has taken a fork 🍽️
+8600 4 is thinking 🤔
+8600 4 has taken a fork 🍽️
+8600 3 is sleeping 😴
+8600 2 has taken a fork 🍽️
+8600 2 is eating 🍝
+8800 2 is sleeping 😴
+8800 5 is sleeping 😴
+8800 4 has taken a fork 🍽️
+8800 4 is eating 🍝
+8800 3 is thinking 🤔
+8800 1 is thinking 🤔
+8800 3 has taken a fork 🍽️
+8800 1 has taken a fork 🍽️
+8800 1 has taken a fork 🍽️
+8800 1 is eating 🍝
+9000 4 is sleeping 😴
+9000 5 is thinking 🤔
+9000 5 has taken a fork 🍽️
+9000 3 has taken a fork 🍽️
+9000 3 is eating 🍝
+9000 2 is thinking 🤔
+9000 2 has taken a fork 🍽️
+9000 1 is sleeping 😴
+9000 5 has taken a fork 🍽️
+9000 5 is eating 🍝
+9200 4 is thinking 🤔
+9200 4 has taken a fork 🍽️
+9200 5 is sleeping 😴
+9200 4 has taken a fork 🍽️
+9200 2 has taken a fork 🍽️
+9200 2 is eating 🍝
+9200 4 is eating 🍝
+9200 3 is sleeping 😴
+9200 1 is thinking 🤔
+9200 1 has taken a fork 🍽️
+9400 4 is sleeping 😴
+9400 5 is thinking 🤔
+9400 3 is thinking 🤔
+9400 5 has taken a fork 🍽️
+9400 2 is sleeping 😴
+9400 1 has taken a fork 🍽️
+9400 1 is eating 🍝
+9400 3 has taken a fork 🍽️
+9400 3 has taken a fork 🍽️
+9400 3 is eating 🍝
+9600 3 is sleeping 😴
+9600 4 is thinking 🤔
+9600 4 has taken a fork 🍽️
+9600 2 is thinking 🤔
+9600 1 is sleeping 😴
+9600 2 has taken a fork 🍽️
+9600 2 has taken a fork 🍽️
+9600 2 is eating 🍝
+9600 5 has taken a fork 🍽️
+9600 5 is eating 🍝
+9800 2 is sleeping 😴
+9800 1 is thinking 🤔
+9800 5 is sleeping 😴
+9800 4 has taken a fork 🍽️
+9800 4 is eating 🍝
+9800 1 has taken a fork 🍽️
+9800 1 has taken a fork 🍽️
+9800 1 is eating 🍝
+9800 3 is thinking 🤔
+9800 3 has taken a fork 🍽️
+10000 1 is sleeping 😴
+10000 5 is thinking 🤔
+10000 2 is thinking 🤔
+10000 2 has taken a fork 🍽️
+10000 4 is sleeping 😴
+10000 5 has taken a fork 🍽️
+10000 5 has taken a fork 🍽️
+10000 5 is eating 🍝
+10000 3 has taken a fork 🍽️
+10000 3 is eating 🍝
+10200 1 is thinking 🤔
+10200 4 is thinking 🤔
+10200 5 is sleeping 😴
+10200 1 has taken a fork 🍽️
+10200 3 is sleeping 😴
+10200 4 has taken a fork 🍽️
+10200 4 has taken a fork 🍽️
+10200 4 is eating 🍝
+10200 2 has taken a fork 🍽️
+10200 2 is eating 🍝
+10400 3 is thinking 🤔
+10400 3 has taken a fork 🍽️
+10400 2 is sleeping 😴
+10400 1 has taken a fork 🍽️
+10400 1 is eating 🍝
+10400 4 is sleeping 😴
+10400 3 has taken a fork 🍽️
+10400 3 is eating 🍝
+10400 5 is thinking 🤔
+10400 5 has taken a fork 🍽️
+10600 3 is sleeping 😴
+10600 2 is thinking 🤔
+10600 2 has taken a fork 🍽️
+10600 1 is sleeping 😴
+10600 5 has taken a fork 🍽️
+10600 5 is eating 🍝
+10600 2 has taken a fork 🍽️
+10600 2 is eating 🍝
+10600 4 is thinking 🤔
+10600 4 has taken a fork 🍽️
+10800 1 is thinking 🤔
+10800 1 has taken a fork 🍽️
+10800 4 has taken a fork 🍽️
+10800 5 is sleeping 😴
+10800 4 is eating 🍝
+10800 2 is sleeping 😴
+10800 1 has taken a fork 🍽️
+10800 1 is eating 🍝
+10800 3 is thinking 🤔
+10800 3 has taken a fork 🍽️
+11000 1 is sleeping 😴
+11000 4 is sleeping 😴
+11000 3 has taken a fork 🍽️
+11000 3 is eating 🍝
+11000 5 is thinking 🤔
+11000 5 has taken a fork 🍽️
+11000 5 has taken a fork 🍽️
+11000 5 is eating 🍝
+11000 2 is thinking 🤔
+11000 2 has taken a fork 🍽️
+11200 4 is thinking 🤔
+11200 2 has taken a fork 🍽️
+11200 2 is eating 🍝
+11200 4 has taken a fork 🍽️
+11200 3 is sleeping 😴
+11200 1 is thinking 🤔
+11200 5 is sleeping 😴
+11200 1 has taken a fork 🍽️
+11200 4 has taken a fork 🍽️
+11200 4 is eating 🍝
+11400 4 is sleeping 😴
+11400 3 is thinking 🤔
+11400 5 is thinking 🤔
+11400 5 has taken a fork 🍽️
+11400 2 is sleeping 😴
+11400 1 has taken a fork 🍽️
+11400 1 is eating 🍝
+11400 3 has taken a fork 🍽️
+11400 3 has taken a fork 🍽️
+11400 3 is eating 🍝
+11600 1 is sleeping 😴
+11600 5 has taken a fork 🍽️
+11600 5 is eating 🍝
+11600 2 is thinking 🤔
+11600 2 has taken a fork 🍽️
+11600 3 is sleeping 😴
+11600 2 has taken a fork 🍽️
+11600 2 is eating 🍝
+11600 4 is thinking 🤔
+11600 4 has taken a fork 🍽️
+11800 3 is thinking 🤔
+11800 5 is sleeping 😴
+11800 2 is sleeping 😴
+11800 4 has taken a fork 🍽️
+11800 4 is eating 🍝
+11800 3 has taken a fork 🍽️
+11800 1 is thinking 🤔
+11800 1 has taken a fork 🍽️
+11800 1 has taken a fork 🍽️
+11800 1 is eating 🍝
+12000 2 is thinking 🤔
+12000 4 is sleeping 😴
+12000 3 has taken a fork 🍽️
+12000 3 is eating 🍝
+12000 5 is thinking 🤔
+12000 5 has taken a fork 🍽️
+12000 5 has taken a fork 🍽️
+12000 1 is sleeping 😴
+12000 2 has taken a fork 🍽️
+12000 5 is eating 🍝
+12200 3 is sleeping 😴
+12200 2 has taken a fork 🍽️
+12200 2 is eating 🍝
+12200 1 is thinking 🤔
+12200 4 is thinking 🤔
+12200 4 has taken a fork 🍽️
+12200 5 is sleeping 😴
+12200 4 has taken a fork 🍽️
+12200 4 is eating 🍝
+12200 1 has taken a fork 🍽️
+12400 2 is sleeping 😴
+12400 1 has taken a fork 🍽️
+12400 1 is eating 🍝
+12400 5 is thinking 🤔
+12400 3 is thinking 🤔
+12400 3 has taken a fork 🍽️
+12400 4 is sleeping 😴
+12400 3 has taken a fork 🍽️
+12400 3 is eating 🍝
+12400 5 has taken a fork 🍽️
+12600 4 is thinking 🤔
+12600 3 is sleeping 😴
+12600 1 is sleeping 😴
+12600 5 has taken a fork 🍽️
+12600 5 is eating 🍝
+12600 2 is thinking 🤔
+12600 2 has taken a fork 🍽️
+12600 2 has taken a fork 🍽️
+12600 2 is eating 🍝
+12600 4 has taken a fork 🍽️
+12800 5 is sleeping 😴
+12800 4 has taken a fork 🍽️
+12800 4 is eating 🍝
+12800 2 is sleeping 😴
+12800 3 is thinking 🤔
+12800 3 has taken a fork 🍽️
+12800 1 is thinking 🤔
+12800 1 has taken a fork 🍽️
+12800 1 has taken a fork 🍽️
+12800 1 is eating 🍝
+13000 2 is thinking 🤔
+13000 4 is sleeping 😴
+13000 5 is thinking 🤔
+13000 5 has taken a fork 🍽️
+13000 3 has taken a fork 🍽️
+13000 3 is eating 🍝
+13000 1 is sleeping 😴
+13000 2 has taken a fork 🍽️
+13000 5 has taken a fork 🍽️
+13000 5 is eating 🍝
+13200 5 is sleeping 😴
+13200 1 is thinking 🤔
+13200 1 has taken a fork 🍽️
+13200 3 is sleeping 😴
+13200 4 is thinking 🤔
+13200 4 has taken a fork 🍽️
+13200 4 has taken a fork 🍽️
+13200 4 is eating 🍝
+13200 2 has taken a fork 🍽️
+13200 2 is eating 🍝
+13400 4 is sleeping 😴
+13400 3 is thinking 🤔
+13400 3 has taken a fork 🍽️
+13400 2 is sleeping 😴
+13400 1 has taken a fork 🍽️
+13400 1 is eating 🍝
+13400 3 has taken a fork 🍽️
+13400 3 is eating 🍝
+13400 5 is thinking 🤔
+13400 5 has taken a fork 🍽️
+13600 3 is sleeping 😴
+13600 2 is thinking 🤔
+13600 4 is thinking 🤔
+13600 4 has taken a fork 🍽️
+13600 1 is sleeping 😴
+13600 5 has taken a fork 🍽️
+13600 5 is eating 🍝
+13600 2 has taken a fork 🍽️
+13600 2 has taken a fork 🍽️
+13600 2 is eating 🍝
+13800 5 is sleeping 😴
+13800 4 has taken a fork 🍽️
+13800 4 is eating 🍝
+13800 1 is thinking 🤔
+13800 1 has taken a fork 🍽️
+13800 3 is thinking 🤔
+13800 2 is sleeping 😴
+13800 3 has taken a fork 🍽️
+13800 1 has taken a fork 🍽️
+13800 1 is eating 🍝
+14000 2 is thinking 🤔
+14000 4 is sleeping 😴
+14000 3 has taken a fork 🍽️
+14000 3 is eating 🍝
+14000 5 is thinking 🤔
+14000 5 has taken a fork 🍽️
+14000 1 is sleeping 😴
+14000 5 has taken a fork 🍽️
+14000 5 is eating 🍝
+14000 2 has taken a fork 🍽️
+14200 4 is thinking 🤔
+14200 4 has taken a fork 🍽️
+14200 1 is thinking 🤔
+14200 2 has taken a fork 🍽️
+14200 2 is eating 🍝
+14200 3 is sleeping 😴
+14200 5 is sleeping 😴
+14200 4 has taken a fork 🍽️
+14200 4 is eating 🍝
+14200 1 has taken a fork 🍽️
+14400 3 is thinking 🤔
+14400 3 has taken a fork 🍽️
+14400 3 has taken a fork 🍽️
+14400 3 is eating 🍝
+14400 4 is sleeping 😴
+14400 2 is sleeping 😴
+14400 1 has taken a fork 🍽️
+14400 5 is thinking 🤔
+14400 1 is eating 🍝
+14400 5 has taken a fork 🍽️
+14600 1 is sleeping 😴
+14600 5 has taken a fork 🍽️
+14600 3 is sleeping 😴
+14600 5 is eating 🍝
+14600 4 is thinking 🤔
+14600 4 has taken a fork 🍽️
+14600 2 is thinking 🤔
+14600 2 has taken a fork 🍽️
+14600 2 has taken a fork 🍽️
+14600 2 is eating 🍝
+14800 1 is thinking 🤔
+14800 2 is sleeping 😴
+14800 3 is thinking 🤔
+14800 3 has taken a fork 🍽️
+14800 5 is sleeping 😴
+14800 4 has taken a fork 🍽️
+14800 4 is eating 🍝
+14800 1 has taken a fork 🍽️
+14800 1 has taken a fork 🍽️
+14800 1 is eating 🍝
+15000 5 is thinking 🤔
+15000 2 is thinking 🤔
+15000 4 is sleeping 😴
+15000 5 has taken a fork 🍽️
+15000 5 has taken a fork 🍽️
+15000 5 is eating 🍝
+15000 3 has taken a fork 🍽️
+15000 3 is eating 🍝
+15000 1 is sleeping 😴
+15000 2 has taken a fork 🍽️
+15200 4 is thinking 🤔
+15200 1 is thinking 🤔
+15200 3 is sleeping 😴
+15200 2 has taken a fork 🍽️
+15200 2 is eating 🍝
+15200 4 has taken a fork 🍽️
+15200 5 is sleeping 😴
+15200 1 has taken a fork 🍽️
+15200 4 has taken a fork 🍽️
+15200 4 is eating 🍝
+15400 4 is sleeping 😴
+15400 3 is thinking 🤔
+15400 3 has taken a fork 🍽️
+15400 3 has taken a fork 🍽️
+15400 3 is eating 🍝
+15400 2 is sleeping 😴
+15400 1 has taken a fork 🍽️
+15400 1 is eating 🍝
+15400 5 is thinking 🤔
+15400 5 has taken a fork 🍽️
+15600 4 is thinking 🤔
+15600 2 is thinking 🤔
+15600 1 is sleeping 😴
+15600 5 has taken a fork 🍽️
+15600 5 is eating 🍝
+15600 2 has taken a fork 🍽️
+15600 3 is sleeping 😴
+15600 2 has taken a fork 🍽️
+15600 2 is eating 🍝
+15600 4 has taken a fork 🍽️
+15800 1 is thinking 🤔
+15800 3 is thinking 🤔
+15800 5 is sleeping 😴
+15800 1 has taken a fork 🍽️
+15800 2 is sleeping 😴
+15800 1 has taken a fork 🍽️
+15800 1 is eating 🍝
+15800 4 has taken a fork 🍽️
+15800 4 is eating 🍝
+15800 3 has taken a fork 🍽️
+16000 4 is sleeping 😴
+16000 3 has taken a fork 🍽️
+16000 3 is eating 🍝
+16000 1 is sleeping 😴
+16000 5 is thinking 🤔
+16000 5 has taken a fork 🍽️
+16000 5 has taken a fork 🍽️
+16000 5 is eating 🍝
+16000 2 is thinking 🤔
+16000 2 has taken a fork 🍽️
+16200 4 is thinking 🤔
+16200 5 is sleeping 😴
+16200 1 is thinking 🤔
+16200 1 has taken a fork 🍽️
+16200 3 is sleeping 😴
+16200 4 has taken a fork 🍽️
+16200 4 has taken a fork 🍽️
+16200 4 is eating 🍝
+16200 2 has taken a fork 🍽️
+16200 2 is eating 🍝
+16400 5 is thinking 🤔
+16400 5 has taken a fork 🍽️
+16400 2 is sleeping 😴
+16400 1 has taken a fork 🍽️
+16400 1 is eating 🍝
+16400 4 is sleeping 😴
+16400 3 is thinking 🤔
+16400 3 has taken a fork 🍽️
+16400 3 has taken a fork 🍽️
+16400 3 is eating 🍝
+16600 4 is thinking 🤔
+16600 2 is thinking 🤔
+16600 2 has taken a fork 🍽️
+16600 5 has taken a fork 🍽️
+16600 5 is eating 🍝
+16600 1 is sleeping 😴
+16600 3 is sleeping 😴
+16600 2 has taken a fork 🍽️
+16600 2 is eating 🍝
+16600 4 has taken a fork 🍽️
+16800 1 is thinking 🤔
+16800 1 has taken a fork 🍽️
+16800 5 is sleeping 😴
+16800 2 is sleeping 😴
+16800 4 has taken a fork 🍽️
+16800 4 is eating 🍝
+16800 1 has taken a fork 🍽️
+16800 1 is eating 🍝
+16800 3 is thinking 🤔
+16800 3 has taken a fork 🍽️
+17000 2 is thinking 🤔
+17000 4 is sleeping 😴
+17000 5 is thinking 🤔
+17000 3 has taken a fork 🍽️
+17000 3 is eating 🍝
+17000 5 has taken a fork 🍽️
+17000 1 is sleeping 😴
+17000 2 has taken a fork 🍽️
+17000 5 has taken a fork 🍽️
+17000 5 is eating 🍝
+17200 5 is sleeping 😴
+17200 3 is sleeping 😴
+17200 2 has taken a fork 🍽️
+17200 2 is eating 🍝
+17200 1 is thinking 🤔
+17200 4 is thinking 🤔
+17200 1 has taken a fork 🍽️
+17200 4 has taken a fork 🍽️
+17200 4 has taken a fork 🍽️
+17200 4 is eating 🍝
+17400 4 is sleeping 😴
+17400 3 is thinking 🤔
+17400 5 is thinking 🤔
+17400 5 has taken a fork 🍽️
+17400 2 is sleeping 😴
+17400 1 has taken a fork 🍽️
+17400 1 is eating 🍝
+17400 3 has taken a fork 🍽️
+17400 3 has taken a fork 🍽️
+17400 3 is eating 🍝
+17600 2 is thinking 🤔
+17600 3 is sleeping 😴
+17600 4 is thinking 🤔
+17600 4 has taken a fork 🍽️
+17600 1 is sleeping 😴
+17600 5 has taken a fork 🍽️
+17600 5 is eating 🍝
+17600 2 has taken a fork 🍽️
+17600 2 has taken a fork 🍽️
+17600 2 is eating 🍝
+17800 1 is thinking 🤔
+17800 2 is sleeping 😴
+17800 3 is thinking 🤔
+17800 3 has taken a fork 🍽️
+17800 5 is sleeping 😴
+17800 1 has taken a fork 🍽️
+17800 1 has taken a fork 🍽️
+17800 1 is eating 🍝
+17800 4 has taken a fork 🍽️
+17800 4 is eating 🍝
+18000 4 is sleeping 😴
+18000 3 has taken a fork 🍽️
+18000 3 is eating 🍝
+18000 2 is thinking 🤔
+18000 5 is thinking 🤔
+18000 5 has taken a fork 🍽️
+18000 5 has taken a fork 🍽️
+18000 5 is eating 🍝
+18000 1 is sleeping 😴
+18000 2 has taken a fork 🍽️
+18200 1 is thinking 🤔
+18200 3 is sleeping 😴
+18200 2 has taken a fork 🍽️
+18200 2 is eating 🍝
+18200 4 is thinking 🤔
+18200 4 has taken a fork 🍽️
+18200 4 has taken a fork 🍽️
+18200 4 is eating 🍝
+18200 1 has taken a fork 🍽️
+18200 5 is sleeping 😴
+18400 5 is thinking 🤔
+18400 3 is thinking 🤔
+18400 2 is sleeping 😴
+18400 1 has taken a fork 🍽️
+18400 1 is eating 🍝
+18400 3 has taken a fork 🍽️
+18400 4 is sleeping 😴
+18400 5 has taken a fork 🍽️
+18400 3 has taken a fork 🍽️
+18400 3 is eating 🍝
+18600 1 is sleeping 😴
+18600 5 has taken a fork 🍽️
+18600 5 is eating 🍝
+18600 2 is thinking 🤔
+18600 2 has taken a fork 🍽️
+18600 4 is thinking 🤔
+18600 3 is sleeping 😴
+18600 4 has taken a fork 🍽️
+18600 2 has taken a fork 🍽️
+18600 2 is eating 🍝
+18800 2 is sleeping 😴
+18800 3 is thinking 🤔
+18800 3 has taken a fork 🍽️
+18800 1 is thinking 🤔
+18800 1 has taken a fork 🍽️
+18800 1 has taken a fork 🍽️
+18800 1 is eating 🍝
+18800 5 is sleeping 😴
+18800 4 has taken a fork 🍽️
+18800 4 is eating 🍝
+19000 5 is thinking 🤔
+19000 2 is thinking 🤔
+19000 5 has taken a fork 🍽️
+19000 4 is sleeping 😴
+19000 3 has taken a fork 🍽️
+19000 3 is eating 🍝
+19000 1 is sleeping 😴
+19000 2 has taken a fork 🍽️
+19000 5 has taken a fork 🍽️
+19000 5 is eating 🍝
+19200 3 is sleeping 😴
+19200 2 has taken a fork 🍽️
+19200 1 is thinking 🤔
+19200 2 is eating 🍝
+19200 5 is sleeping 😴
+19200 1 has taken a fork 🍽️
+19200 4 is thinking 🤔
+19200 4 has taken a fork 🍽️
+19200 4 has taken a fork 🍽️
+19200 4 is eating 🍝
+19400 2 is sleeping 😴
+19400 1 has taken a fork 🍽️
+19400 1 is eating 🍝
+19400 5 is thinking 🤔
+19400 4 is sleeping 😴
+19400 5 has taken a fork 🍽️
+19400 3 is thinking 🤔
+19400 3 has taken a fork 🍽️
+19400 3 has taken a fork 🍽️
+19400 3 is eating 🍝
+19600 1 is sleeping 😴
+19600 5 has taken a fork 🍽️
+19600 5 is eating 🍝
+19600 4 is thinking 🤔
+19600 3 is sleeping 😴
+19600 2 is thinking 🤔
+19600 2 has taken a fork 🍽️
+19600 2 has taken a fork 🍽️
+19600 2 is eating 🍝
+19600 4 has taken a fork 🍽️
+19800 2 is sleeping 😴
+19800 4 has taken a fork 🍽️
+19800 1 is thinking 🤔
+19800 5 is sleeping 😴
+19800 1 has taken a fork 🍽️
+19800 1 has taken a fork 🍽️
+19800 4 is eating 🍝
+19800 1 is eating 🍝
+19800 3 is thinking 🤔
+19800 3 has taken a fork 🍽️
+20000 5 is thinking 🤔
+20000 2 is thinking 🤔
+20000 4 is sleeping 😴
+20000 5 has taken a fork 🍽️
+20000 1 is sleeping 😴
+20000 5 has taken a fork 🍽️
+20000 5 is eating 🍝
+20000 3 has taken a fork 🍽️
+20000 3 is eating 🍝
+20000 2 has taken a fork 🍽️
+20200 1 is thinking 🤔
+20200 1 has taken a fork 🍽️
+20200 5 is sleeping 😴
+20200 3 is sleeping 😴
+20200 2 has taken a fork 🍽️
+20200 2 is eating 🍝
+20200 4 is thinking 🤔
+20200 4 has taken a fork 🍽️
+20200 4 has taken a fork 🍽️
+20200 4 is eating 🍝
+20400 4 is sleeping 😴
+20400 5 is thinking 🤔
+20400 5 has taken a fork 🍽️
+20400 3 is thinking 🤔
+20400 2 is sleeping 😴
+20400 3 has taken a fork 🍽️
+20400 3 has taken a fork 🍽️
+20400 3 is eating 🍝
+20400 1 has taken a fork 🍽️
+20400 1 is eating 🍝
+20600 4 is thinking 🤔
+20600 1 is sleeping 😴
+20600 5 has taken a fork 🍽️
+20600 5 is eating 🍝
+20600 3 is sleeping 😴
+20600 4 has taken a fork 🍽️
+20600 2 is thinking 🤔
+20600 2 has taken a fork 🍽️
+20600 2 has taken a fork 🍽️
+20600 2 is eating 🍝
+20800 1 is thinking 🤔
+20800 1 has taken a fork 🍽️
+20800 4 has taken a fork 🍽️
+20800 4 is eating 🍝
+20800 5 is sleeping 😴
+20800 2 is sleeping 😴
+20800 3 is thinking 🤔
+20800 3 has taken a fork 🍽️
+20800 1 has taken a fork 🍽️
+20800 1 is eating 🍝
+21000 4 is sleeping 😴
+21000 3 has taken a fork 🍽️
+21000 3 is eating 🍝
+21000 5 is thinking 🤔
+21000 5 has taken a fork 🍽️
+21000 5 has taken a fork 🍽️
+21000 5 is eating 🍝
+21000 1 is sleeping 😴
+21000 2 is thinking 🤔
+21000 2 has taken a fork 🍽️
+21200 3 is sleeping 😴
+21200 2 has taken a fork 🍽️
+21200 2 is eating 🍝
+21200 4 is thinking 🤔
+21200 4 has taken a fork 🍽️
+21200 1 is thinking 🤔
+21200 5 is sleeping 😴
+21200 4 has taken a fork 🍽️
+21200 4 is eating 🍝
+21200 1 has taken a fork 🍽️
+21400 4 is sleeping 😴
+21400 3 is thinking 🤔
+21400 5 is thinking 🤔
+21400 5 has taken a fork 🍽️
+21400 2 is sleeping 😴
+21400 1 has taken a fork 🍽️
+21400 1 is eating 🍝
+21400 3 has taken a fork 🍽️
+21400 3 has taken a fork 🍽️
+21400 3 is eating 🍝
+21600 4 is thinking 🤔
+21600 1 is sleeping 😴
+21600 3 is sleeping 😴
+21600 4 has taken a fork 🍽️
+21600 5 has taken a fork 🍽️
+21600 5 is eating 🍝
+21600 2 is thinking 🤔
+21600 2 has taken a fork 🍽️
+21600 2 has taken a fork 🍽️
+21600 2 is eating 🍝
+21800 5 is sleeping 😴
+21800 4 has taken a fork 🍽️
+21800 4 is eating 🍝
+21800 2 is sleeping 😴
+21800 3 is thinking 🤔
+21800 3 has taken a fork 🍽️
+21800 1 is thinking 🤔
+21800 1 has taken a fork 🍽️
+21800 1 has taken a fork 🍽️
+21800 1 is eating 🍝
+22000 2 is thinking 🤔
+22000 4 is sleeping 😴
+22000 3 has taken a fork 🍽️
+22000 3 is eating 🍝
+22000 5 is thinking 🤔
+22000 5 has taken a fork 🍽️
+22000 1 is sleeping 😴
+22000 2 has taken a fork 🍽️
+22000 5 has taken a fork 🍽️
+22000 5 is eating 🍝
+22200 1 is thinking 🤔
+22200 5 is sleeping 😴
+22200 3 is sleeping 😴
+22200 2 has taken a fork 🍽️
+22200 2 is eating 🍝
+22200 1 has taken a fork 🍽️
+22200 4 is thinking 🤔
+22200 4 has taken a fork 🍽️
+22200 4 has taken a fork 🍽️
+22200 4 is eating 🍝
+22400 3 is thinking 🤔
+22400 4 is sleeping 😴
+22400 2 is sleeping 😴
+22400 1 has taken a fork 🍽️
+22400 1 is eating 🍝
+22400 3 has taken a fork 🍽️
+22400 3 has taken a fork 🍽️
+22400 3 is eating 🍝
+22400 5 is thinking 🤔
+22400 5 has taken a fork 🍽️
+22600 4 is thinking 🤔
+22600 4 has taken a fork 🍽️
+22600 3 is sleeping 😴
+22600 2 is thinking 🤔
+22600 2 has taken a fork 🍽️
+22600 2 has taken a fork 🍽️
+22600 2 is eating 🍝
+22600 1 is sleeping 😴
+22600 5 has taken a fork 🍽️
+22600 5 is eating 🍝
+22800 1 is thinking 🤔
+22800 3 is thinking 🤔
+22800 1 has taken a fork 🍽️
+22800 5 is sleeping 😴
+22800 2 is sleeping 😴
+22800 3 has taken a fork 🍽️
+22800 1 has taken a fork 🍽️
+22800 1 is eating 🍝
+22800 4 has taken a fork 🍽️
+22800 4 is eating 🍝
+23000 2 is thinking 🤔
+23000 2 has taken a fork 🍽️
+23000 1 is sleeping 😴
+23000 4 is sleeping 😴
+23000 3 has taken a fork 🍽️
+23000 3 is eating 🍝
+23000 5 is thinking 🤔
+23000 5 has taken a fork 🍽️
+23000 5 has taken a fork 🍽️
+23000 5 is eating 🍝
+23200 1 is thinking 🤔
+23200 5 is sleeping 😴
+23200 4 is thinking 🤔
+23200 1 has taken a fork 🍽️
+23200 3 is sleeping 😴
+23200 2 has taken a fork 🍽️
+23200 2 is eating 🍝
+23200 4 has taken a fork 🍽️
+23200 4 has taken a fork 🍽️
+23200 4 is eating 🍝
+23400 3 is thinking 🤔
+23400 5 is thinking 🤔
+23400 2 is sleeping 😴
+23400 1 has taken a fork 🍽️
+23400 1 is eating 🍝
+23400 4 is sleeping 😴
+23400 3 has taken a fork 🍽️
+23400 3 has taken a fork 🍽️
+23400 3 is eating 🍝
+23400 5 has taken a fork 🍽️
+23600 1 is sleeping 😴
+23600 5 has taken a fork 🍽️
+23600 5 is eating 🍝
+23600 2 is thinking 🤔
+23600 2 has taken a fork 🍽️
+23600 3 is sleeping 😴
+23600 2 has taken a fork 🍽️
+23600 2 is eating 🍝
+23600 4 is thinking 🤔
+23600 4 has taken a fork 🍽️
+23800 3 is thinking 🤔
+23800 3 has taken a fork 🍽️
+23800 2 is sleeping 😴
+23800 1 is thinking 🤔
+23800 5 is sleeping 😴
+23800 4 has taken a fork 🍽️
+23800 4 is eating 🍝
+23800 1 has taken a fork 🍽️
+23800 1 has taken a fork 🍽️
+23800 1 is eating 🍝
+24000 2 is thinking 🤔
+24000 5 is thinking 🤔
+24000 5 has taken a fork 🍽️
+24000 5 has taken a fork 🍽️
+24000 5 is eating 🍝
+24000 4 is sleeping 😴
+24000 2 has taken a fork 🍽️
+24000 3 has taken a fork 🍽️
+24000 3 is eating 🍝
+24000 1 is sleeping 😴
+24200 4 is thinking 🤔
+24200 5 is sleeping 😴
+24200 1 is thinking 🤔
+24200 1 has taken a fork 🍽️
+24200 3 is sleeping 😴
+24200 2 has taken a fork 🍽️
+24200 2 is eating 🍝
+24200 4 has taken a fork 🍽️
+24200 4 has taken a fork 🍽️
+24200 4 is eating 🍝
+24400 2 is sleeping 😴
+24400 1 has taken a fork 🍽️
+24400 1 is eating 🍝
+24400 4 is sleeping 😴
+24400 5 is thinking 🤔
+24400 5 has taken a fork 🍽️
+24400 3 is thinking 🤔
+24400 3 has taken a fork 🍽️
+24400 3 has taken a fork 🍽️
+24400 3 is eating 🍝
+24600 3 is sleeping 😴
+24600 2 is thinking 🤔
+24600 4 is thinking 🤔
+24600 1 is sleeping 😴
+24600 4 has taken a fork 🍽️
+24600 2 has taken a fork 🍽️
+24600 2 has taken a fork 🍽️
+24600 2 is eating 🍝
+24600 5 has taken a fork 🍽️
+24600 5 is eating 🍝
+24800 3 is thinking 🤔
+24800 2 is sleeping 😴
+24800 3 has taken a fork 🍽️
+24800 5 is sleeping 😴
+24800 4 has taken a fork 🍽️
+24800 4 is eating 🍝
+24800 1 is thinking 🤔
+24800 1 has taken a fork 🍽️
+24800 1 has taken a fork 🍽️
+24800 1 is eating 🍝
+25000 2 is thinking 🤔
+25000 5 is thinking 🤔
+25000 1 is sleeping 😴
+25000 4 is sleeping 😴
+25000 2 has taken a fork 🍽️
+25000 3 has taken a fork 🍽️
+25000 3 is eating 🍝
+25000 5 has taken a fork 🍽️
+25000 5 has taken a fork 🍽️
+25000 5 is eating 🍝
+25200 5 is sleeping 😴
+25200 1 is thinking 🤔
+25200 1 has taken a fork 🍽️
+25200 4 is thinking 🤔
+25200 4 has taken a fork 🍽️
+25200 4 has taken a fork 🍽️
+25200 4 is eating 🍝
+25200 3 is sleeping 😴
+25200 2 has taken a fork 🍽️
+25200 2 is eating 🍝
+25400 4 is sleeping 😴
+25400 1 has taken a fork 🍽️
+25400 1 is eating 🍝
+25400 5 is thinking 🤔
+25400 5 has taken a fork 🍽️
+25400 2 is sleeping 😴
+25400 3 is thinking 🤔
+25400 3 has taken a fork 🍽️
+25400 3 has taken a fork 🍽️
+25400 3 is eating 🍝
+25600 4 is thinking 🤔
+25600 2 is thinking 🤔
+25600 3 is sleeping 😴
+25600 4 has taken a fork 🍽️
+25600 1 is sleeping 😴
+25600 2 has taken a fork 🍽️
+25600 2 has taken a fork 🍽️
+25600 2 is eating 🍝
+25600 5 has taken a fork 🍽️
+25600 5 is eating 🍝
+25800 5 is sleeping 😴
+25800 2 is sleeping 😴
+25800 4 has taken a fork 🍽️
+25800 4 is eating 🍝
+25800 1 is thinking 🤔
+25800 1 has taken a fork 🍽️
+25800 1 has taken a fork 🍽️
+25800 1 is eating 🍝
+25800 3 is thinking 🤔
+25800 3 has taken a fork 🍽️
+26000 5 is thinking 🤔
+26000 4 is sleeping 😴
+26000 5 has taken a fork 🍽️
+26000 3 has taken a fork 🍽️
+26000 3 is eating 🍝
+26000 2 is thinking 🤔
+26000 1 is sleeping 😴
+26000 5 has taken a fork 🍽️
+26000 5 is eating 🍝
+26000 2 has taken a fork 🍽️
+26200 5 is sleeping 😴
+26200 2 has taken a fork 🍽️
+26200 2 is eating 🍝
+26200 1 is thinking 🤔
+26200 1 has taken a fork 🍽️
+26200 3 is sleeping 😴
+26200 4 is thinking 🤔
+26200 4 has taken a fork 🍽️
+26200 4 has taken a fork 🍽️
+26200 4 is eating 🍝
+26400 4 is sleeping 😴
+26400 3 is thinking 🤔
+26400 5 is thinking 🤔
+26400 5 has taken a fork 🍽️
+26400 2 is sleeping 😴
+26400 1 has taken a fork 🍽️
+26400 1 is eating 🍝
+26400 3 has taken a fork 🍽️
+26400 3 has taken a fork 🍽️
+26400 3 is eating 🍝
+26600 1 is sleeping 😴
+26600 5 has taken a fork 🍽️
+26600 5 is eating 🍝
+26600 4 is thinking 🤔
+26600 4 has taken a fork 🍽️
+26600 3 is sleeping 😴
+26600 2 is thinking 🤔
+26600 2 has taken a fork 🍽️
+26600 2 has taken a fork 🍽️
+26600 2 is eating 🍝
+26800 1 is thinking 🤔
+26800 2 is sleeping 😴
+26800 3 is thinking 🤔
+26800 3 has taken a fork 🍽️
+26800 5 is sleeping 😴
+26800 4 has taken a fork 🍽️
+26800 4 is eating 🍝
+26800 1 has taken a fork 🍽️
+26800 1 has taken a fork 🍽️
+26800 1 is eating 🍝
+27000 1 is sleeping 😴
+27000 3 has taken a fork 🍽️
+27000 3 is eating 🍝
+27000 4 is sleeping 😴
+27000 5 is thinking 🤔
+27000 5 has taken a fork 🍽️
+27000 5 has taken a fork 🍽️
+27000 5 is eating 🍝
+27000 2 is thinking 🤔
+27000 2 has taken a fork 🍽️
+27200 4 is thinking 🤔
+27200 4 has taken a fork 🍽️
+27200 4 has taken a fork 🍽️
+27200 4 is eating 🍝
+27200 3 is sleeping 😴
+27200 5 is sleeping 😴
+27200 1 is thinking 🤔
+27200 1 has taken a fork 🍽️
+27200 2 has taken a fork 🍽️
+27200 2 is eating 🍝
+27400 2 is sleeping 😴
+27400 1 has taken a fork 🍽️
+27400 1 is eating 🍝
+27400 4 is sleeping 😴
+27400 3 is thinking 🤔
+27400 3 has taken a fork 🍽️
+27400 3 has taken a fork 🍽️
+27400 3 is eating 🍝
+27400 5 is thinking 🤔
+27400 5 has taken a fork 🍽️
+27600 3 is sleeping 😴
+27600 4 is thinking 🤔
+27600 4 has taken a fork 🍽️
+27600 2 is thinking 🤔
+27600 2 has taken a fork 🍽️
+27600 2 has taken a fork 🍽️
+27600 2 is eating 🍝
+27600 1 is sleeping 😴
+27600 5 has taken a fork 🍽️
+27600 5 is eating 🍝
+27800 3 is thinking 🤔
+27800 2 is sleeping 😴
+27800 3 has taken a fork 🍽️
+27800 1 is thinking 🤔
+27800 1 has taken a fork 🍽️
+27800 1 has taken a fork 🍽️
+27800 1 is eating 🍝
+27800 5 is sleeping 😴
+27800 4 has taken a fork 🍽️
+27800 4 is eating 🍝
+28000 5 is thinking 🤔
+28000 5 has taken a fork 🍽️
+28000 4 is sleeping 😴
+28000 2 is thinking 🤔
+28000 3 has taken a fork 🍽️
+28000 3 is eating 🍝
+28000 1 is sleeping 😴
+28000 2 has taken a fork 🍽️
+28000 5 has taken a fork 🍽️
+28000 5 is eating 🍝
+28200 1 is thinking 🤔
+28200 3 is sleeping 😴
+28200 2 has taken a fork 🍽️
+28200 2 is eating 🍝
+28200 4 is thinking 🤔
+28200 4 has taken a fork 🍽️
+28200 5 is sleeping 😴
+28200 1 has taken a fork 🍽️
+28200 4 has taken a fork 🍽️
+28200 4 is eating 🍝
+28400 5 is thinking 🤔
+28400 3 is thinking 🤔
+28400 3 has taken a fork 🍽️
+28400 2 is sleeping 😴
+28400 1 has taken a fork 🍽️
+28400 1 is eating 🍝
+28400 3 has taken a fork 🍽️
+28400 3 is eating 🍝
+28400 4 is sleeping 😴
+28400 5 has taken a fork 🍽️
+28600 2 is thinking 🤔
+28600 3 is sleeping 😴
+28600 2 has taken a fork 🍽️
+28600 1 is sleeping 😴
+28600 5 has taken a fork 🍽️
+28600 5 is eating 🍝
+28600 2 has taken a fork 🍽️
+28600 2 is eating 🍝
+28600 4 is thinking 🤔
+28600 4 has taken a fork 🍽️
+28800 1 is thinking 🤔
+28800 2 is sleeping 😴
+28800 5 is sleeping 😴
+28800 3 is thinking 🤔
+28800 3 has taken a fork 🍽️
+28800 4 has taken a fork 🍽️
+28800 4 is eating 🍝
+28800 1 has taken a fork 🍽️
+28800 1 has taken a fork 🍽️
+28800 1 is eating 🍝
+29000 5 is thinking 🤔
+29000 1 is sleeping 😴
+29000 2 is thinking 🤔
+29000 2 has taken a fork 🍽️
+29000 4 is sleeping 😴
+29000 3 has taken a fork 🍽️
+29000 3 is eating 🍝
+29000 5 has taken a fork 🍽️
+29000 5 has taken a fork 🍽️
+29000 5 is eating 🍝
+29200 1 is thinking 🤔
+29200 2 has taken a fork 🍽️
+29200 2 is eating 🍝
+29200 3 is sleeping 😴
+29200 5 is sleeping 😴
+29200 1 has taken a fork 🍽️
+29200 4 is thinking 🤔
+29200 4 has taken a fork 🍽️
+29200 4 has taken a fork 🍽️
+29200 4 is eating 🍝
+29400 3 is thinking 🤔
+29400 3 has taken a fork 🍽️
+29400 1 has taken a fork 🍽️
+29400 2 is sleeping 😴
+29400 1 is eating 🍝
+29400 5 is thinking 🤔
+29400 4 is sleeping 😴
+29400 5 has taken a fork 🍽️
+29400 3 has taken a fork 🍽️
+29400 3 is eating 🍝
+29600 1 is sleeping 😴
+29600 4 is thinking 🤔
+29600 5 has taken a fork 🍽️
+29600 5 is eating 🍝
+29600 2 is thinking 🤔
+29600 2 has taken a fork 🍽️
+29600 3 is sleeping 😴
+29600 2 has taken a fork 🍽️
+29600 2 is eating 🍝
+29600 4 has taken a fork 🍽️
+29800 2 is sleeping 😴
+29800 5 is sleeping 😴
+29800 4 has taken a fork 🍽️
+29800 4 is eating 🍝
+29800 1 is thinking 🤔
+29800 1 has taken a fork 🍽️
+29800 1 has taken a fork 🍽️
+29800 1 is eating 🍝
+29800 3 is thinking 🤔
+29800 3 has taken a fork 🍽️
+30000 1 is sleeping 😴
+30000 3 has taken a fork 🍽️
+30000 3 is eating 🍝
+30000 4 is sleeping 😴
+30000 2 is thinking 🤔
+30000 2 has taken a fork 🍽️
+30000 5 is thinking 🤔
+30000 5 has taken a fork 🍽️
+30000 5 has taken a fork 🍽️
+30000 5 is eating 🍝
+30200 3 is sleeping 😴
+30200 2 has taken a fork 🍽️
+30200 2 is eating 🍝
+30200 5 is sleeping 😴
+30200 4 is thinking 🤔
+30200 4 has taken a fork 🍽️
+30200 4 has taken a fork 🍽️
+30200 4 is eating 🍝
+30200 1 is thinking 🤔
+30200 1 has taken a fork 🍽️
+30400 4 is sleeping 😴
+30400 3 is thinking 🤔
+30400 3 has taken a fork 🍽️
+30400 2 is sleeping 😴
+30400 1 has taken a fork 🍽️
+30400 1 is eating 🍝
+30400 3 has taken a fork 🍽️
+30400 3 is eating 🍝
+30400 5 is thinking 🤔
+30400 5 has taken a fork 🍽️
+30600 3 is sleeping 😴
+30600 2 is thinking 🤔
+30600 4 is thinking 🤔
+30600 4 has taken a fork 🍽️
+30600 5 has taken a fork 🍽️
+30600 5 is eating 🍝
+30600 2 has taken a fork 🍽️
+30600 2 has taken a fork 🍽️
+30600 2 is eating 🍝
+30600 1 is sleeping 😴
+30800 5 is sleeping 😴
+30800 4 has taken a fork 🍽️
+30800 4 is eating 🍝
+30800 2 is sleeping 😴
+30800 3 is thinking 🤔
+30800 3 has taken a fork 🍽️
+30800 1 is thinking 🤔
+30800 1 has taken a fork 🍽️
+30800 1 has taken a fork 🍽️
+30800 1 is eating 🍝
+31000 2 is thinking 🤔
+31000 1 is sleeping 😴
+31000 2 has taken a fork 🍽️
+31000 5 is thinking 🤔
+31000 4 is sleeping 😴
+31000 5 has taken a fork 🍽️
+31000 5 has taken a fork 🍽️
+31000 5 is eating 🍝
+31000 3 has taken a fork 🍽️
+31000 3 is eating 🍝
+31200 5 is sleeping 😴
+31200 3 is sleeping 😴
+31200 1 is thinking 🤔
+31200 1 has taken a fork 🍽️
+31200 2 has taken a fork 🍽️
+31200 2 is eating 🍝
+31200 4 is thinking 🤔
+31200 4 has taken a fork 🍽️
+31200 4 has taken a fork 🍽️
+31200 4 is eating 🍝
+31400 2 is sleeping 😴
+31400 1 has taken a fork 🍽️
+31400 1 is eating 🍝
+31400 5 is thinking 🤔
+31400 3 is thinking 🤔
+31400 3 has taken a fork 🍽️
+31400 4 is sleeping 😴
+31400 5 has taken a fork 🍽️
+31400 3 has taken a fork 🍽️
+31400 3 is eating 🍝
+31600 2 is thinking 🤔
+31600 3 is sleeping 😴
+31600 4 is thinking 🤔
+31600 4 has taken a fork 🍽️
+31600 2 has taken a fork 🍽️
+31600 2 has taken a fork 🍽️
+31600 2 is eating 🍝
+31600 1 is sleeping 😴
+31600 5 has taken a fork 🍽️
+31600 5 is eating 🍝
+31800 1 is thinking 🤔
+31800 5 is sleeping 😴
+31800 4 has taken a fork 🍽️
+31800 1 has taken a fork 🍽️
+31800 4 is eating 🍝
+31800 3 is thinking 🤔
+31800 3 has taken a fork 🍽️
+31800 2 is sleeping 😴
+31800 1 has taken a fork 🍽️
+31800 1 is eating 🍝
+32000 2 is thinking 🤔
+32000 2 has taken a fork 🍽️
+32000 1 is sleeping 😴
+32000 5 is thinking 🤔
+32000 4 is sleeping 😴
+32000 5 has taken a fork 🍽️
+32000 5 has taken a fork 🍽️
+32000 5 is eating 🍝
+32000 3 has taken a fork 🍽️
+32000 3 is eating 🍝
+32200 5 is sleeping 😴
+32200 1 is thinking 🤔
+32200 1 has taken a fork 🍽️
+32200 3 is sleeping 😴
+32200 2 has taken a fork 🍽️
+32200 2 is eating 🍝
+32200 4 is thinking 🤔
+32200 4 has taken a fork 🍽️
+32200 4 has taken a fork 🍽️
+32200 4 is eating 🍝
+32400 5 is thinking 🤔
+32400 5 has taken a fork 🍽️
+32400 4 is sleeping 😴
+32400 2 is sleeping 😴
+32400 3 is thinking 🤔
+32400 3 has taken a fork 🍽️
+32400 3 has taken a fork 🍽️
+32400 3 is eating 🍝
+32400 1 has taken a fork 🍽️
+32400 1 is eating 🍝
+32600 1 is sleeping 😴
+32600 5 has taken a fork 🍽️
+32600 5 is eating 🍝
+32600 3 is sleeping 😴
+32600 4 is thinking 🤔
+32600 4 has taken a fork 🍽️
+32600 2 is thinking 🤔
+32600 2 has taken a fork 🍽️
+32600 2 has taken a fork 🍽️
+32600 2 is eating 🍝
+32800 2 is sleeping 😴
+32800 1 is thinking 🤔
+32800 3 is thinking 🤔
+32800 3 has taken a fork 🍽️
+32800 5 is sleeping 😴
+32800 1 has taken a fork 🍽️
+32800 1 has taken a fork 🍽️
+32800 1 is eating 🍝
+32800 4 has taken a fork 🍽️
+32800 4 is eating 🍝
+33000 5 is thinking 🤔
+33000 2 is thinking 🤔
+33000 1 is sleeping 😴
+33000 4 is sleeping 😴
+33000 5 has taken a fork 🍽️
+33000 5 has taken a fork 🍽️
+33000 5 is eating 🍝
+33000 2 has taken a fork 🍽️
+33000 3 has taken a fork 🍽️
+33000 3 is eating 🍝
+33200 4 is thinking 🤔
+33200 1 is thinking 🤔
+33200 1 has taken a fork 🍽️
+33200 3 is sleeping 😴
+33200 5 is sleeping 😴
+33200 4 has taken a fork 🍽️
+33200 4 has taken a fork 🍽️
+33200 4 is eating 🍝
+33200 2 has taken a fork 🍽️
+33200 2 is eating 🍝
+33400 2 is sleeping 😴
+33400 4 is sleeping 😴
+33400 1 has taken a fork 🍽️
+33400 1 is eating 🍝
+33400 3 is thinking 🤔
+33400 3 has taken a fork 🍽️
+33400 3 has taken a fork 🍽️
+33400 3 is eating 🍝
+33400 5 is thinking 🤔
+33400 5 has taken a fork 🍽️
+33600 3 is sleeping 😴
+33600 4 is thinking 🤔
+33600 4 has taken a fork 🍽️
+33600 1 is sleeping 😴
+33600 2 is thinking 🤔
+33600 5 has taken a fork 🍽️
+33600 2 has taken a fork 🍽️
+33600 5 is eating 🍝
+33600 2 has taken a fork 🍽️
+33600 2 is eating 🍝
+33800 3 is thinking 🤔
+33800 2 is sleeping 😴
+33800 3 has taken a fork 🍽️
+33800 5 is sleeping 😴
+33800 1 is thinking 🤔
+33800 1 has taken a fork 🍽️
+33800 1 has taken a fork 🍽️
+33800 1 is eating 🍝
+33800 4 has taken a fork 🍽️
+33800 4 is eating 🍝
+34000 5 is thinking 🤔
+34000 4 is sleeping 😴
+34000 3 has taken a fork 🍽️
+34000 3 is eating 🍝
+34000 5 has taken a fork 🍽️
+34000 1 is sleeping 😴
+34000 2 is thinking 🤔
+34000 2 has taken a fork 🍽️
+34000 5 has taken a fork 🍽️
+34000 5 is eating 🍝
+34200 3 is sleeping 😴
+34200 2 has taken a fork 🍽️
+34200 2 is eating 🍝
+34200 1 is thinking 🤔
+34200 4 is thinking 🤔
+34200 4 has taken a fork 🍽️
+34200 5 is sleeping 😴
+34200 4 has taken a fork 🍽️
+34200 4 is eating 🍝
+34200 1 has taken a fork 🍽️
+34400 4 is sleeping 😴
+34400 5 is thinking 🤔
+34400 5 has taken a fork 🍽️
+34400 3 is thinking 🤔
+34400 2 is sleeping 😴
+34400 1 has taken a fork 🍽️
+34400 1 is eating 🍝
+34400 3 has taken a fork 🍽️
+34400 3 has taken a fork 🍽️
+34400 3 is eating 🍝
+34600 1 is sleeping 😴
+34600 5 has taken a fork 🍽️
+34600 5 is eating 🍝
+34600 3 is sleeping 😴
+34600 2 is thinking 🤔
+34600 2 has taken a fork 🍽️
+34600 2 has taken a fork 🍽️
+34600 2 is eating 🍝
+34600 4 is thinking 🤔
+34600 4 has taken a fork 🍽️
+34800 1 is thinking 🤔
+34800 1 has taken a fork 🍽️
+34800 4 has taken a fork 🍽️
+34800 4 is eating 🍝
+34800 2 is sleeping 😴
+34800 1 has taken a fork 🍽️
+34800 1 is eating 🍝
+34800 5 is sleeping 😴
+34800 3 is thinking 🤔
+34800 3 has taken a fork 🍽️
+35000 4 is sleeping 😴
+35000 3 has taken a fork 🍽️
+35000 3 is eating 🍝
+35000 2 is thinking 🤔
+35000 5 is thinking 🤔
+35000 5 has taken a fork 🍽️
+35000 1 is sleeping 😴
+35000 5 has taken a fork 🍽️
+35000 5 is eating 🍝
+35000 2 has taken a fork 🍽️
+35200 3 is sleeping 😴
+35200 2 has taken a fork 🍽️
+35200 2 is eating 🍝
+35200 5 is sleeping 😴
+35200 4 is thinking 🤔
+35200 4 has taken a fork 🍽️
+35200 4 has taken a fork 🍽️
+35200 4 is eating 🍝
+35200 1 is thinking 🤔
+35200 1 has taken a fork 🍽️
+35400 5 is thinking 🤔
+35400 4 is sleeping 😴
+35400 5 has taken a fork 🍽️
+35400 3 is thinking 🤔
+35400 2 is sleeping 😴
+35400 1 has taken a fork 🍽️
+35400 1 is eating 🍝
+35400 3 has taken a fork 🍽️
+35400 3 has taken a fork 🍽️
+35400 3 is eating 🍝
+35600 3 is sleeping 😴
+35600 4 is thinking 🤔
+35600 4 has taken a fork 🍽️
+35600 2 is thinking 🤔
+35600 2 has taken a fork 🍽️
+35600 2 has taken a fork 🍽️
+35600 2 is eating 🍝
+35600 5 has taken a fork 🍽️
+35600 5 is eating 🍝
+35600 1 is sleeping 😴
+35800 3 is thinking 🤔
+35800 2 is sleeping 😴
+35800 3 has taken a fork 🍽️
+35800 1 is thinking 🤔
+35800 5 is sleeping 😴
+35800 1 has taken a fork 🍽️
+35800 1 has taken a fork 🍽️
+35800 1 is eating 🍝
+35800 4 has taken a fork 🍽️
+35800 4 is eating 🍝
+36000 4 is sleeping 😴
+36000 3 has taken a fork 🍽️
+36000 3 is eating 🍝
+36000 2 is thinking 🤔
+36000 5 is thinking 🤔
+36000 5 has taken a fork 🍽️
+36000 1 is sleeping 😴
+36000 2 has taken a fork 🍽️
+36000 5 has taken a fork 🍽️
+36000 5 is eating 🍝
+36200 1 is thinking 🤔
+36200 4 is thinking 🤔
+36200 5 is sleeping 😴
+36200 1 has taken a fork 🍽️
+36200 3 is sleeping 😴
+36200 2 has taken a fork 🍽️
+36200 2 is eating 🍝
+36200 4 has taken a fork 🍽️
+36200 4 has taken a fork 🍽️
+36200 4 is eating 🍝
+36400 5 is thinking 🤔
+36400 1 has taken a fork 🍽️
+36400 1 is eating 🍝
+36400 3 is thinking 🤔
+36400 4 is sleeping 😴
+36400 3 has taken a fork 🍽️
+36400 2 is sleeping 😴
+36400 3 has taken a fork 🍽️
+36400 5 has taken a fork 🍽️
+36400 3 is eating 🍝
+36600 2 is thinking 🤔
+36600 4 is thinking 🤔
+36600 3 is sleeping 😴
+36600 4 has taken a fork 🍽️
+36600 1 is sleeping 😴
+36600 2 has taken a fork 🍽️
+36600 2 has taken a fork 🍽️
+36600 2 is eating 🍝
+36600 5 has taken a fork 🍽️
+36600 5 is eating 🍝
+36800 2 is sleeping 😴
+36800 1 is thinking 🤔
+36800 5 is sleeping 😴
+36800 4 has taken a fork 🍽️
+36800 4 is eating 🍝
+36800 1 has taken a fork 🍽️
+36800 1 has taken a fork 🍽️
+36800 1 is eating 🍝
+36800 3 is thinking 🤔
+36800 3 has taken a fork 🍽️
+37000 2 is thinking 🤔
+37000 4 is sleeping 😴
+37000 3 has taken a fork 🍽️
+37000 3 is eating 🍝
+37000 5 is thinking 🤔
+37000 5 has taken a fork 🍽️
+37000 1 is sleeping 😴
+37000 5 has taken a fork 🍽️
+37000 5 is eating 🍝
+37000 2 has taken a fork 🍽️
+37200 4 is thinking 🤔
+37200 3 is sleeping 😴
+37200 4 has taken a fork 🍽️
+37200 5 is sleeping 😴
+37200 4 has taken a fork 🍽️
+37200 4 is eating 🍝
+37200 2 has taken a fork 🍽️
+37200 2 is eating 🍝
+37200 1 is thinking 🤔
+37200 1 has taken a fork 🍽️
+37400 4 is sleeping 😴
+37400 3 is thinking 🤔
+37400 5 is thinking 🤔
+37400 5 has taken a fork 🍽️
+37400 2 is sleeping 😴
+37400 1 has taken a fork 🍽️
+37400 1 is eating 🍝
+37400 3 has taken a fork 🍽️
+37400 3 has taken a fork 🍽️
+37400 3 is eating 🍝
+37600 2 is thinking 🤔
+37600 1 is sleeping 😴
+37600 2 has taken a fork 🍽️
+37600 4 is thinking 🤔
+37600 5 has taken a fork 🍽️
+37600 5 is eating 🍝
+37600 3 is sleeping 😴
+37600 4 has taken a fork 🍽️
+37600 2 has taken a fork 🍽️
+37600 2 is eating 🍝
+37800 1 is thinking 🤔
+37800 1 has taken a fork 🍽️
+37800 4 has taken a fork 🍽️
+37800 4 is eating 🍝
+37800 5 is sleeping 😴
+37800 3 is thinking 🤔
+37800 2 is sleeping 😴
+37800 3 has taken a fork 🍽️
+37800 1 has taken a fork 🍽️
+37800 1 is eating 🍝
+38000 1 is sleeping 😴
+38000 4 is sleeping 😴
+38000 5 is thinking 🤔
+38000 5 has taken a fork 🍽️
+38000 2 is thinking 🤔
+38000 2 has taken a fork 🍽️
+38000 3 has taken a fork 🍽️
+38000 3 is eating 🍝
+38000 5 has taken a fork 🍽️
+38000 5 is eating 🍝
+38200 1 is thinking 🤔
+38200 4 is thinking 🤔
+38200 5 is sleeping 😴
+38200 1 has taken a fork 🍽️
+38200 3 is sleeping 😴
+38200 4 has taken a fork 🍽️
+38200 4 has taken a fork 🍽️
+38200 4 is eating 🍝
+38200 2 has taken a fork 🍽️
+38200 2 is eating 🍝
+38400 3 is thinking 🤔
+38400 3 has taken a fork 🍽️
+38400 2 is sleeping 😴
+38400 5 is thinking 🤔
+38400 1 has taken a fork 🍽️
+38400 1 is eating 🍝
+38400 4 is sleeping 😴
+38400 5 has taken a fork 🍽️
+38400 3 has taken a fork 🍽️
+38400 3 is eating 🍝
+38600 4 is thinking 🤔
+38600 3 is sleeping 😴
+38600 1 is sleeping 😴
+38600 5 has taken a fork 🍽️
+38600 5 is eating 🍝
+38600 4 has taken a fork 🍽

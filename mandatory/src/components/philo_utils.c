@@ -14,23 +14,34 @@
 
 
 
-// Get current timestamp in milliseconds
+/* This function returns the current time in milliseconds.*/
+// ou
+// tv.tv_sec * 1000 converts seconds to milliseconds
+// tv.tv_usec / 1000 converts microseconds to milliseconds.
 long long get_time(void)
 {
     struct timeval tv;
     gettimeofday(&tv, NULL);
-    return (tv.tv_sec * 1000) + (tv.tv_usec / 1000);
+    return (tv.tv_sec * 1000 + tv.tv_usec / 1000);
 }
+// size_t	time_now(void)
+// {
+// 	struct timeval	time;
 
-// Smart sleep function to prevent CPU overuse
+// 	if (gettimeofday(&time, NULL) == -1)
+// 		write(2, "gettimeofday() error\n", 22);
+// 	return (time.tv_sec * 1000 + time.tv_usec / 1000);
+// }
+
 void smart_sleep(long long time)
 {
-    long long start = get_time();
+    long long start;
+    start = get_time();
     while ((get_time() - start) < time)
         usleep(100);
+    return ;
 }
 
-// Print function with mutex to avoid mixed output
 void print_status(t_philosopher *philo, char *msg)
 {
     pthread_mutex_lock(&philo->shared->print_lock);

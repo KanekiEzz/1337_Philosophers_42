@@ -16,19 +16,34 @@ void *monitor_routine(void *arg)
 {
     t_philo *philo = (t_philo *)arg;
     int i;
+    long long x_time;
+    int philosophers_done_eating;
 
-    while (!philo->stop_simulation)
+    while (1)
     {
         i = 0;
+        philosophers_done_eating = 0;
         while (i < philo->number_of_philosophers)
         {
-            if (get_time() - philo->philosophers[i].last_meal_time > philo->time_to_die)
+            pthread_mutex_lock(&philo->philosophers[i].meal_mutex);
+            x_time = get_time() - philo->philosophers[i].last_meal_time;   
+            if (x_time > philo->time_to_die)
             {
                 print_status(&philo->philosophers[i], "died 💀");
                 philo->stop_simulation = 1;
-                break;
+                pthread_mutex_unlock(&philo->philosophers[i].meal_mutex);
+                return (NULL);
             }
+            if (philo->philosophers[i].meals_eaten >= philo->eat_count)
+                philosophers_done_eating++;
+            
+            pthread_mutex_unlock(&philo->philosophers[i].meal_mutex);
             i++;
+        }
+        if (philo->eat_count > 0 && philosophers_done_eating == philo->number_of_philosophers)
+        {
+            philo->stop_simulation = 1;
+            return (NULL);
         }
         usleep(1000);
     }

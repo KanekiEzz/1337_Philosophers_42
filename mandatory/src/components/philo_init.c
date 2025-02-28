@@ -21,18 +21,13 @@ int philo_init(t_philo *philo)
     philo->start_time = get_time();
     pthread_mutex_init(&philo->print_lock, NULL);
 
-    // Allocate philosophers and forks
     philo->forks = malloc(sizeof(pthread_mutex_t) * philo->number_of_philosophers);
     philo->philosophers = malloc(sizeof(t_philosopher) * philo->number_of_philosophers);
     if (!philo->forks || !philo->philosophers)
         return (1);
-
-
     i = 0;
     while (i < philo->number_of_philosophers)
         pthread_mutex_init(&philo->forks[i++], NULL);
-
-    // Initialize philosopher data
     i = 0;
     while (i < philo->number_of_philosophers)
     {
@@ -44,14 +39,11 @@ int philo_init(t_philo *philo)
         philo->philosophers[i].shared = philo;
         i++;
     }
-
     i = 0;
-    // Create philosopher threads
     while (i < philo->number_of_philosophers)
     {
         pthread_create(&philo->philosophers[i].thread, NULL, philosopher_routine, &philo->philosophers[i]);
         i++;
     }
-
     return (0);
 }
