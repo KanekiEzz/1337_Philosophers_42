@@ -1,6 +1,6 @@
 NAME = philo
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g -fsanitize=thread
 RM = rm -f
 
 SRCS =	./mandatory/src/philo.c \
@@ -9,7 +9,6 @@ SRCS =	./mandatory/src/philo.c \
 		./mandatory/src/components/philo_routine.c \
 		./mandatory/src/components/philo_utils.c \
 		./mandatory/src/lib/ft_atof.c \
-		./mandatory/src/lib/ft_atoi.c \
 		./mandatory/src/lib/ft_putchar.c \
 		./mandatory/src/lib/ft_putstr.c \
 		./mandatory/src/lib/ft_strcmp.c \
@@ -19,7 +18,7 @@ OBJS = $(SRCS:.c=.o)
 
 
 $(NAME): $(OBJS)
-	$(CC)  $(OBJS) -o $(NAME) 
+	$(CC)  $(OBJS) -o  $(NAME) -g -fsanitize=thread
 
 
 ./mandatory/%.o: ./mandatory/%.c ./mandatory/includes/philo.h
