@@ -117,3 +117,6 @@ I'll generate a clear **flowchart image** for you. One moment! 🎨🖥️
 
 
 Here’s your flowchart! 📊 This visually explains the logic behind the `philo` project, including the main process, philosopher threads, and the monitor system 🚀.
+
+
+ ./philo 2 120 60 3
