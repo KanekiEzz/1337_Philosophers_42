@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 23:23:14 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/03 00:56:25 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/04 10:47:46 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ typedef struct s_philo
 	pthread_mutex_t	print_lock;
 	pthread_mutex_t	stop_mutex;
 	pthread_mutex_t	shared_mutex;
-	pthread_mutex_t	simulation_mutex;
 	pthread_mutex_t	*forks;
 	t_philosopher	*philosophers;
 }		t_philo;

@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:21:41 by iezzam            #+#    #+#             */
-/*   Updated: 2025/02/28 22:55:37 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/04 10:47:57 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,6 @@ int	philo_init(t_philo *philo)
 	if (pthread_mutex_init(&philo->print_lock, NULL) != 0)
 		return (1);
 	if (pthread_mutex_init(&philo->stop_mutex, NULL) != 0)
-		return (1);
-	if (pthread_mutex_init(&philo->simulation_mutex, NULL) != 0)
 		return (1);
 	if (pthread_mutex_init(&philo->shared_mutex, NULL) != 0)
 		return (1);

@@ -6,13 +6,13 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:22:13 by iezzam            #+#    #+#             */
-/*   Updated: 2025/02/28 23:20:37 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/04 12:42:31 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-void	*moni_lop(t_philo *philo, int i, int *philosophers_done_eating)
+void	*mini_lop(t_philo *philo, int i, int *philosophers_done_eating)
 {
 	long long	x_time;
 
@@ -69,7 +69,7 @@ void	*monitor_routine(void *arg)
 			return (NULL);
 		}
 		pthread_mutex_unlock(&philo->stop_mutex);
-		moni_lop(philo, i, &philosophers_done_eating);
+		mini_lop(philo, i, &philosophers_done_eating);
 		if (check(philo, philosophers_done_eating) == 0)
 			return (NULL);
 		usleep(1000);

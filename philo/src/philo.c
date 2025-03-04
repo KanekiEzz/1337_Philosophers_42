@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 12:38:30 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/03 00:56:10 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/04 12:21:52 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,6 @@ void	philo_cleanup(t_philo *philo)
 	}
 	pthread_mutex_destroy(&philo->print_lock);
 	pthread_mutex_destroy(&philo->stop_mutex);
-	pthread_mutex_destroy(&philo->simulation_mutex);
 	pthread_mutex_destroy(&philo->shared_mutex);
 	free(philo->forks);
 	free(philo->philosophers);

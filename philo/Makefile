@@ -20,7 +20,6 @@ OBJS = $(SRCS:.c=.o)
 $(NAME): $(OBJS)
 	$(CC)  $(OBJS) -o  $(NAME) -g -fsanitize=thread
 
-
 %.o: %.c ./include/philo.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
