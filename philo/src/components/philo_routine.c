@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/03 00:59:52 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/04 13:34:58 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@ void	eat_one_philo(t_philosopher *philo)
 {
 	if (philo->shared->number_of_philosophers == 1)
 	{
-		print_status(philo, "has taken a fokr 🍽️");
+		print_status(philo, "has taken a fork 🍽️");
 		smart_sleep(philo->shared->time_to_die);
-		print_status(philo, "dided 💀");
+		print_status(philo, "died 💀");
 	}
 	return ;
 }

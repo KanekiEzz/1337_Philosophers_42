@@ -6,64 +6,43 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:21:41 by iezzam            #+#    #+#             */
-/*   Updated: 2025/02/28 22:55:37 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/07 09:05:24 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-int	init(t_philo *philo)
+void init_data(t_data *data, int argc, char **argv)
+{
+    data->num_philos = atoi(argv[1]);
+    data->time_to_die = atoi(argv[2]);
+    data->time_to_eat = atoi(argv[3]);
+    data->time_to_sleep = atoi(argv[4]);
+    data->num_meals = (argc == 6) ? atoi(argv[5]) : -1;
+    data->start_time = get_time();
+
+    sem_unlink("/forks");
+    sem_unlink("/print");
+    sem_unlink("/stop");
+    
+    data->forks = sem_open("/forks", O_CREAT, 0644, data->num_philos);
+    data->print = sem_open("/print", O_CREAT, 0644, 1);
+    data->stop = sem_open("/stop", O_CREAT, 0644, 0);
+    
+    data->philos = malloc(sizeof(t_philo) * data->num_philos);
+}
+
+void init_philos(t_data *data)
 {
 	int	i;
 
-	i = -1;
-	while (++i < philo->number_of_philosophers)
-	{
-		if (pthread_mutex_init(&philo->forks[i++], NULL) != 0)
-			return (1);
-	}
-	i = -1;
-	while (++i < philo->number_of_philosophers)
-	{
-		philo->philosophers[i].id = i + 1;
-		philo->philosophers[i].meals_eaten = 0;
-		philo->philosophers[i].last_meal_time = get_time();
-		philo->philosophers[i].shared = philo;
-		if (pthread_mutex_init(&philo->philosophers[i].meal_mutex, NULL) != 0)
-			return (1);
-		philo->philosophers[i].left_fork = &philo->forks[i];
-		philo->philosophers[i].right_fork
-			= &philo->forks[(i + 1) % philo->number_of_philosophers];
-		if (pthread_create(&philo->philosophers[i].thread, NULL, \
-				philosopher_routine, &philo->philosophers[i]) != 0)
-			return (1);
-	}
-	return (0);
-}
-
-int	philo_init(t_philo *philo)
-{
-	philo->stop_simulation = 0;
-	philo->start_time = get_time();
-	if (pthread_mutex_init(&philo->print_lock, NULL) != 0)
-		return (1);
-	if (pthread_mutex_init(&philo->stop_mutex, NULL) != 0)
-		return (1);
-	if (pthread_mutex_init(&philo->simulation_mutex, NULL) != 0)
-		return (1);
-	if (pthread_mutex_init(&philo->shared_mutex, NULL) != 0)
-		return (1);
-	philo->forks = malloc(sizeof(pthread_mutex_t)
-			* philo->number_of_philosophers);
-	if (!philo->forks)
-		return (1);
-	philo->philosophers = malloc(sizeof(t_philosopher)
-			* philo->number_of_philosophers);
-	if (!philo->philosophers)
-	{
-		free(philo->forks);
-		return (1);
-	}
-	init(philo);
-	return (0);
+	i = 0;
+    while (i < data->num_philos)
+    {
+        data->philos[i].id = i;
+        data->philos[i].meals_eaten = 0;
+        data->philos[i].last_meal = get_time();
+        data->philos[i].data = data;
+		i++;
+    }
 }
