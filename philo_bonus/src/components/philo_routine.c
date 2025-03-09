@@ -6,103 +6,99 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/07 09:00:56 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/09 00:50:50 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-void print_status(t_philo *philo, char *msg)
+
+void    *death_monitor(void *arg)
 {
-	sem_wait(philo->data->print);
-	printf("%lld %d %s\n", get_time() - philo->data->start_time, philo->id + 1, msg);
-	sem_post(philo->data->print);
+    t_philosopher *philo;
+    long long     current_time;
+
+    philo = (t_philosopher *)arg;
+    while (1)
+    {
+        sem_wait(philo->shared->meal_check_sem);
+        current_time = get_time();
+        if (current_time - philo->last_meal_time > philo->shared->time_to_die)
+        {
+            print_status(philo, "died 💀");
+            sem_post(philo->shared->done_sem);
+            exit(1);
+        }
+        sem_post(philo->shared->meal_check_sem);
+        usleep(1000);
+    }
+    return (NULL);
 }
 
-void eat(t_philo *philo)
+void    eat(t_philosopher *philo)
 {
-	sem_wait(philo->data->forks);
-	print_status(philo, "has taken a fork");
-	sem_wait(philo->data->forks);
-	print_status(philo, "has taken a fork");
-
-	print_status(philo, "is eating");
-	philo->last_meal = get_time();
-	philo->meals_eaten++;
-	ft_usleep(philo->data->time_to_eat);
-
-	sem_post(philo->data->forks);
-	sem_post(philo->data->forks);
+    sem_wait(philo->shared->forks_sem);
+    print_status(philo, "has taken a fork 🍽️");
+    sem_wait(philo->shared->forks_sem);
+    print_status(philo, "has taken a fork 🍽️");
+    
+    sem_wait(philo->shared->meal_check_sem);
+    print_status(philo, "is eating 🍝");
+    philo->last_meal_time = get_time();
+    philo->meals_eaten++;
+    
+    if (philo->shared->eat_count > 0 && philo->meals_eaten >= philo->shared->eat_count)
+        sem_post(philo->shared->all_ate_sem);
+    
+    sem_post(philo->shared->meal_check_sem);
+    
+    smart_sleep(philo->shared->time_to_eat);
+    
+    sem_post(philo->shared->forks_sem);
+    sem_post(philo->shared->forks_sem);
 }
 
-void *monitor(void *arg)
+// int    check_if_done(t_philosopher *philo)
+// {
+//     struct timespec ts;
+//     ts.tv_sec = 0;
+//     ts.tv_nsec = 1000;
+    
+//     if (sem_timedwait(philo->shared->done_sem, &ts) == 0)
+//     {
+//         sem_post(philo->shared->done_sem);
+//         return (1);
+//     }
+//     return (0);
+// }
+
+void    philosopher_routine(t_philosopher *philo)
 {
-	t_philo *philo = (t_philo *)arg;
-	while (1)
-	{
-		if ((get_time() - philo->last_meal) > philo->data->time_to_die)
-		{
-			print_status(philo, "died");
-			sem_post(philo->data->stop);
-			exit(1);
-		}
-		usleep(1000);
-	}
-}
-
-void philo_process(t_philo *philo)
-{
-	pthread_t monitor_thread;
-	pthread_create(&monitor_thread, NULL, monitor, philo);
-	pthread_detach(monitor_thread);
-
-	while (1)
-	{
-		eat(philo);
-		if (philo->data->num_meals != -1 && philo->meals_eaten >= philo->data->num_meals)
-			exit(0);
-		print_status(philo, "is sleeping");
-		ft_usleep(philo->data->time_to_sleep);
-		print_status(philo, "is thinking");
-	}
-	exit(0);
-}
-
-void start_simulation(t_data *data)
-{
-	int i;
-	int status;
-
-	i = 0;
-	while (i < data->num_philos)
-	{
-		data->philos[i].pid = fork();
-		if (data->philos[i].pid == 0)
-			philo_process(&data->philos[i]);
-		i++;
-	}
-	if (data->num_meals != -1)
-	{
-		i = 0;
-		while (i < data->num_philos)
-			waitpid(data->philos[i++].pid, &status, 0);
-	}
-	else
-	{
-		i = 0;
-		sem_wait(data->stop);
-		while (i < data->num_philos)
-			kill(data->philos[i++].pid, SIGTERM);
-	}
-}
-
-void cleanup(t_data *data)
-{
-	sem_close(data->forks);
-	sem_close(data->print);
-	sem_close(data->stop);
-	sem_unlink("/forks");
-	sem_unlink("/print");
-	sem_unlink("/stop");
-	free(data->philos);
+    pthread_t death_thread;
+    
+    if (pthread_create(&death_thread, NULL, death_monitor, philo) != 0)
+        exit(1);
+    pthread_detach(death_thread);
+    
+    if (philo->id % 2 == 0)
+        usleep(1000 * philo->shared->time_to_eat / 2);
+    
+    while (1)
+    {
+        // if (check_if_done(philo))
+        //     exit(0);
+            
+        eat(philo);
+        
+        // if (check_if_done(philo))
+            // exit(0);
+            
+        print_status(philo, "is sleeping 😴");
+        smart_sleep(philo->shared->time_to_sleep);
+        
+        // if (check_if_done(philo))
+        //     exit(0);
+            
+        print_status(philo, "is thinking 🤔");
+    }
 }

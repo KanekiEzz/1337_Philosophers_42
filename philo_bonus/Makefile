@@ -1,6 +1,6 @@
 NAME = philo_bonus
 CC = cc
-CFLAGS = -Wall -Wextra -Werror  # -g -fsanitize=thread
+CFLAGS = -Wall -Wextra -Werror   -g -fsanitize=thread
 RM = rm -f
 
 # ./src/components/monitor.c \
@@ -19,8 +19,7 @@ OBJS = $(SRCS:.c=.o)
 
 
 $(NAME): $(OBJS)
-	$(CC)  $(OBJS) -o  $(NAME) 
-# -g -fsanitize=thread
+	$(CC)  $(OBJS) -o  $(NAME)  -g -fsanitize=thread
 
 %.o: %.c ./include/philo.h
 	$(CC) $(CFLAGS) -c $< -o $@
