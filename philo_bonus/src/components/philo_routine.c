@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:18:28 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/11 23:37:56 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,20 +53,6 @@ void	eat(t_philosopher *philo)
 	sem_post(philo->shared->forks_sem);
 }
 
-// int    check_if_done(t_philosopher *philo)
-// {
-//     struct timespec ts;
-//     ts.tv_sec = 0;
-//     ts.tv_nsec = 1000;
-
-//     if (sem_timedwait(philo->shared->done_sem, &ts) == 0)
-//     {
-//         sem_post(philo->shared->done_sem);
-//         return (1);
-//     }
-//     return (0);
-// }
-
 void	philosopher_routine(t_philosopher *philo)
 {
 	pthread_t	death_thread;
@@ -78,15 +64,9 @@ void	philosopher_routine(t_philosopher *philo)
 		usleep(1000 * philo->shared->time_to_eat / 2);
 	while (1)
 	{
-		// if (check_if_done(philo))
-		//     exit(0);
 		eat(philo);
-		// if (check_if_done(philo))
-		// exit(0);
 		print_status(philo, "is sleeping");
 		smart_sleep(philo->shared->time_to_sleep);
-		// if (check_if_done(philo))
-		//     exit(0);
 		print_status(philo, "is thinking");
 	}
 }
