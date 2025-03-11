@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 23:23:14 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/09 01:03:59 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/11 23:16:32 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,8 +63,12 @@ void		smart_sleep(long long time);
 void		print_status(t_philosopher *philo, char *msg);
 
 // Initialization
+int			initialize_philosophers(t_philo *philo);
 int			philo_init(t_philo *philo);
 int			parse_philo(int ac, char **av, t_philo *philo);
+
+// Monitor
+int			start_simulation(t_philo *philo);
 
 // Semaphore utilities
 void		create_semaphores(t_philo *philo);
