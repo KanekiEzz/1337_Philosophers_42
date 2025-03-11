@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:22:13 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/04 12:42:31 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/11 04:54:48 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*mini_lop(t_philo *philo, int i, int *philosophers_done_eating)
 		x_time = get_time() - philo->philosophers[i].last_meal_time;
 		if (x_time > philo->time_to_die)
 		{
-			print_status(&philo->philosophers[i], "died 💀");
+			print_status(&philo->philosophers[i], "died");
 			pthread_mutex_lock(&philo->stop_mutex);
 			philo->stop_simulation = 1;
 			pthread_mutex_unlock(&philo->stop_mutex);
