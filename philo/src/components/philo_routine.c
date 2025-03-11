@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 04:54:55 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/11 19:24:07 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,8 @@ void	*philosopher_routine(void *arg)
 
 	philo = (t_philosopher *)arg;
 	if (philo->id % 2 == 0)
-		usleep(100);
+		smart_sleep(philo->shared->time_to_eat);
+		// usleep(100);
 	while (1)
 	{
 		pthread_mutex_lock(&philo->shared->stop_mutex);
