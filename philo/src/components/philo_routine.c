@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 22:02:21 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/12 23:36:58 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ void	eat(t_philosopher *philo)
 	smart_sleep(philo->shared->time_to_eat);
 	pthread_mutex_unlock(philo->right_fork);
 	pthread_mutex_unlock(philo->left_fork);
+	return ;
 }
 
 void	eat_one_philo(t_philosopher *philo)

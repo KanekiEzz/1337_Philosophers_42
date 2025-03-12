@@ -6,16 +6,12 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:19:50 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 19:21:52 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/12 23:41:10 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-/* This function returns the current time in milliseconds.*/
-// ou
-// tv.tv_sec * 1000 converts seconds to milliseconds
-// tv.tv_usec / 1000 converts microseconds to milliseconds.
 long	long	get_time(void)
 {
 	struct timeval	tv;
@@ -39,8 +35,8 @@ void	print_status(t_philosopher *philo, char *msg)
 	pthread_mutex_lock(&philo->shared->print_lock);
 	pthread_mutex_lock(&philo->shared->stop_mutex);
 	if (!philo->shared->stop_simulation)
-		printf("%lld %d %s\n", get_time() - philo->shared->start_time,
-			philo->id, msg);
+		printf("\033[1;31m%lld\033[0m\t\t\033[1;32m%d\033[0m\t\t\033[1;33m%s\033[0m\n",
+			get_time() - philo->shared->start_time, philo->id, msg);
 	pthread_mutex_unlock(&philo->shared->stop_mutex);
 	pthread_mutex_unlock(&philo->shared->print_lock);
 }

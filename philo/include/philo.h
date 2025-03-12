@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 23:23:14 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/04 10:47:46 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/12 23:38:24 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ typedef struct s_philo
 	int				time_to_eat;
 	int				time_to_sleep;
 	int				eat_count;
-	long long		start_time;
 	int				stop_simulation;
+	long long		start_time;
 	pthread_mutex_t	print_lock;
 	pthread_mutex_t	stop_mutex;
 	pthread_mutex_t	shared_mutex;
@@ -48,19 +48,18 @@ typedef struct s_philo
 	t_philosopher	*philosophers;
 }		t_philo;
 
-void		*monitor_routine(void *arg);
-long long	get_time(void);
-void		smart_sleep(long long time);
+int			parse_philo(int ac, char **av, t_philo *philo);
 void		print_status(t_philosopher *philo, char *msg);
 void		*philosopher_routine(void *arg);
+void		*monitor_routine(void *arg);
+void		smart_sleep(long long time);
 int			philo_init(t_philo *philo);
-int			parse_philo(int ac, char **av, t_philo *philo);
+long long	get_time(void);
 
-// lib
-double		ft_atof(const char *str);
-void		ft_putchar(char c);
 void		ft_putstr(char *s);
-int			ft_strcmp(const char *s1, const char *s2);
+void		ft_putchar(char c);
+double		ft_atof(const char *str);
 size_t		ft_strlen(const char *s);
+int			ft_strcmp(const char *s1, const char *s2);
 
 #endif

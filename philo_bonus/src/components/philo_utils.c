@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:19:50 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:04:01 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/12 23:42:14 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ void	smart_sleep(long long time)
 void	print_status(t_philosopher *philo, char *msg)
 {
 	sem_wait(philo->shared->print_sem);
-	printf("%lld %d %s\n", get_time() - \
-		philo->shared->start_time, philo->id, msg);
+	printf("\033[1;31m%lld\033[0m\t\t\033[1;32m%d\033[0m\t\t\033[1;33m%s\033[0m\n",
+		get_time() - philo->shared->start_time, philo->id, msg);
 	if (ft_strcmp(msg, "died") != 0)
 		sem_post(philo->shared->print_sem);
 	else
