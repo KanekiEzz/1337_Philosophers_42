@@ -1,6 +1,6 @@
 NAME = philo
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror #-fsanitize=thread
 RM = rm -f
 
 SRCS =	./src/philo.c \
@@ -18,7 +18,7 @@ OBJS = $(SRCS:.c=.o)
 
 
 $(NAME): $(OBJS)
-	$(CC)  $(OBJS) -o  $(NAME)
+	$(CC) $(CFLAGS) $(OBJS) -o  $(NAME)
 
 %.o: %.c ./include/philo.h
 	$(CC) $(CFLAGS) -c $< -o $@

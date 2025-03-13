@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:21:41 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:12:52 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/13 06:03:23 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	init(t_philo *philo)
 	i = -1;
 	while (++i < philo->number_of_philosophers)
 	{
-		if (pthread_mutex_init(&philo->forks[i++], NULL) != 0)
+		if (pthread_mutex_init(&philo->forks[i], NULL) != 0)
 			return (1);
 	}
 	i = -1;
