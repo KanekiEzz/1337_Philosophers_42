@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/12 23:36:58 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/13 09:03:00 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,11 +65,12 @@ void	*philosopher_routine(void *arg)
 		if (should_stop)
 			break ;
 		if (philo->shared->number_of_philosophers == 1)
-		{
-			eat_one_philo(philo);
-			return (NULL);
-		}
-		eat(philo);
+			return (eat_one_philo(philo), NULL);
+		(eat(philo), pthread_mutex_lock(&philo->shared->stop_mutex));
+		should_stop = philo->shared->stop_simulation;
+		pthread_mutex_unlock(&philo->shared->stop_mutex);
+		if (should_stop)
+			break ;
 		print_status(philo, "is sleeping");
 		smart_sleep(philo->shared->time_to_sleep);
 		print_status(philo, "is thinking");

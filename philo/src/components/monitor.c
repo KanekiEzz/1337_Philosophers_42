@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:22:13 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 04:54:48 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/13 08:41:19 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ void	*monitor_routine(void *arg)
 		mini_lop(philo, i, &philosophers_done_eating);
 		if (check(philo, philosophers_done_eating) == 0)
 			return (NULL);
-		usleep(1000);
+		usleep(5000);
 	}
 	return (NULL);
 }
