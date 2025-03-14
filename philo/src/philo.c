@@ -6,20 +6,14 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 12:38:30 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/13 03:52:36 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:29:28 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/philo.h"
 
-void f()
-{
-	system("leaks -q philo");
-}
-
 int	parse_philo(int ac, char **av, t_philo *philo)
 {
-	// atexit(f);
 	if (ac < 5 || ac > 6)
 	{
 		ft_putstr("Usage: philo number_of_philosophers\

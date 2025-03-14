@@ -1,6 +1,6 @@
 NAME = philo_bonus
 CC = cc
-CFLAGS = -Wall -Wextra -Werror # -g -fsanitize=thread
+CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 

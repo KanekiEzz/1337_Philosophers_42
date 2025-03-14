@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/13 09:03:00 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:29:57 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ void	eat(t_philosopher *philo)
 	pthread_mutex_lock(&philo->meal_mutex);
 	print_status(philo, "is eating");
 	philo->last_meal_time = get_time();
-
 	pthread_mutex_unlock(&philo->meal_mutex);
 	smart_sleep(philo->shared->time_to_eat);
 	pthread_mutex_unlock(philo->right_fork);
@@ -38,7 +37,6 @@ void	eat(t_philosopher *philo)
 	pthread_mutex_lock(&philo->meal_mutex);
 	philo->meals_eaten++;
 	pthread_mutex_unlock(&philo->meal_mutex);
-
 	return ;
 }
 

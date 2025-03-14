@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   philo_routine.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 03:38:12 by marvin           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:38:26 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-void *death_monitor(void *arg)
+void	*death_monitor(void *arg)
 {
-	t_philosopher *philo;
-	long long current_time;
+	t_philosopher	*philo;
+	long long		current_time;
 
 	philo = (t_philosopher *)arg;
 	while (1)
@@ -26,17 +26,16 @@ void *death_monitor(void *arg)
 		{
 			print_status(philo, "died");
 			sem_post(philo->shared->done_sem);
-			return NULL;
+			return (NULL);
 		}
 		sem_post(philo->shared->meal_check_sem);
 		usleep(1000);
 	}
-	return NULL;
+	return (NULL);
 }
 
-void eat(t_philosopher *philo)
+void	eat(t_philosopher *philo)
 {
-	usleep(1000);
 	sem_wait(philo->shared->forks_sem);
 	print_status(philo, "has taken a fork");
 	sem_wait(philo->shared->forks_sem);
@@ -54,9 +53,9 @@ void eat(t_philosopher *philo)
 	sem_post(philo->shared->forks_sem);
 }
 
-void philosopher_routine(t_philosopher *philo)
+void	philosopher_routine(t_philosopher *philo)
 {
-	pthread_t death_thread;
+	pthread_t	death_thread;
 
 	if (pthread_create(&death_thread, NULL, death_monitor, philo) != 0)
 	{

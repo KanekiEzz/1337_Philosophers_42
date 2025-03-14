@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 23:10:55 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 02:03:39 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:35:10 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,9 @@ void	*meal_monitor(void *arg)
 	return (NULL);
 }
 
-void cleanup_child_process(t_philosopher *philo)
+int	create_philosopher_processes(t_philo *philo)
 {
-	sem_close(philo->shared->forks_sem);
-	sem_close(philo->shared->print_sem);
-	sem_close(philo->shared->meal_check_sem);
-	sem_close(philo->shared->done_sem);
-	sem_close(philo->shared->all_ate_sem);
-}
-
-int create_philosopher_processes(t_philo *philo)
-{
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < philo->number_of_philosophers)
@@ -72,9 +63,9 @@ int	start_meal_monitor(t_philo *philo)
 	return (0);
 }
 
-void stop_simulation(t_philo *philo)
+void	stop_simulation(t_philo *philo)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < philo->number_of_philosophers)

@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:19:50 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/12 23:42:14 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:38:38 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,13 @@ void	print_status(t_philosopher *philo, char *msg)
 		sem_post(philo->shared->print_sem);
 	else
 		sem_post(philo->shared->done_sem);
+}
+
+void	cleanup_child_process(t_philosopher *philo)
+{
+	sem_close(philo->shared->forks_sem);
+	sem_close(philo->shared->print_sem);
+	sem_close(philo->shared->meal_check_sem);
+	sem_close(philo->shared->done_sem);
+	sem_close(philo->shared->all_ate_sem);
 }

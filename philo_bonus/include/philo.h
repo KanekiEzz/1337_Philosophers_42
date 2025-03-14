@@ -6,7 +6,7 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 23:23:14 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:16:32 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 23:35:36 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ typedef struct s_philo
 // Process and monitor functions
 void		*monitor_routine(void *arg);
 void		philosopher_routine(t_philosopher *philo);
+void		cleanup_child_process(t_philosopher *philo);
 
 // Time and utility functions
 long long	get_time(void);
