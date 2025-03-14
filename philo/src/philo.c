@@ -12,8 +12,14 @@
 
 #include "../include/philo.h"
 
+void f()
+{
+	system("leaks -q philo");
+}
+
 int	parse_philo(int ac, char **av, t_philo *philo)
 {
+	// atexit(f);
 	if (ac < 5 || ac > 6)
 	{
 		ft_putstr("Usage: philo number_of_philosophers\
