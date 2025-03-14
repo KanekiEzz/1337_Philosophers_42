@@ -1,0 +1,824 @@
+[1;31m1[0m		[1;32m1[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m1[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m1[0m		[1;33mis eating[0m
+[1;31m1[0m		[1;32m3[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m3[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m3[0m		[1;33mis eating[0m
+[1;31m1[0m		[1;32m5[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m5[0m		[1;33mhas taken a fork[0m
+[1;31m1[0m		[1;32m5[0m		[1;33mis eating[0m
+[1;31m2[0m		[1;32m7[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m7[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m7[0m		[1;33mis eating[0m
+[1;31m2[0m		[1;32m9[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m9[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m9[0m		[1;33mis eating[0m
+[1;31m2[0m		[1;32m11[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m11[0m		[1;33mhas taken a fork[0m
+[1;31m2[0m		[1;32m11[0m		[1;33mis eating[0m
+[1;31m2[0m		[1;32m13[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m13[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m13[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m15[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m15[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m15[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m17[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m17[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m17[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m19[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m19[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m19[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m25[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m25[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m25[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m27[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m27[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m27[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m29[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m29[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m23[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m23[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m23[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m21[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m21[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m21[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m29[0m		[1;33mis eating[0m
+[1;31m4[0m		[1;32m31[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m31[0m		[1;33mhas taken a fork[0m
+[1;31m4[0m		[1;32m31[0m		[1;33mis eating[0m
+[1;31m5[0m		[1;32m33[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m33[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m33[0m		[1;33mis eating[0m
+[1;31m5[0m		[1;32m35[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m35[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m35[0m		[1;33mis eating[0m
+[1;31m5[0m		[1;32m37[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m37[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m37[0m		[1;33mis eating[0m
+[1;31m5[0m		[1;32m39[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m39[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m39[0m		[1;33mis eating[0m
+[1;31m5[0m		[1;32m41[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m41[0m		[1;33mhas taken a fork[0m
+[1;31m5[0m		[1;32m41[0m		[1;33mis eating[0m
+[1;31m6[0m		[1;32m43[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m43[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m43[0m		[1;33mis eating[0m
+[1;31m6[0m		[1;32m45[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m45[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m45[0m		[1;33mis eating[0m
+[1;31m6[0m		[1;32m47[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m47[0m		[1;33mhas taken a fork[0m
+[1;31m6[0m		[1;32m47[0m		[1;33mis eating[0m
+[1;31m7[0m		[1;32m49[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m49[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m49[0m		[1;33mis eating[0m
+[1;31m7[0m		[1;32m51[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m51[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m51[0m		[1;33mis eating[0m
+[1;31m7[0m		[1;32m53[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m53[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m53[0m		[1;33mis eating[0m
+[1;31m7[0m		[1;32m55[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m55[0m		[1;33mhas taken a fork[0m
+[1;31m7[0m		[1;32m55[0m		[1;33mis eating[0m
+[1;31m7[0m		[1;32m57[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m57[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m57[0m		[1;33mis eating[0m
+[1;31m8[0m		[1;32m59[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m59[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m59[0m		[1;33mis eating[0m
+[1;31m8[0m		[1;32m61[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m61[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m61[0m		[1;33mis eating[0m
+[1;31m8[0m		[1;32m63[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m63[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m63[0m		[1;33mis eating[0m
+[1;31m8[0m		[1;32m65[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m65[0m		[1;33mhas taken a fork[0m
+[1;31m8[0m		[1;32m65[0m		[1;33mis eating[0m
+[1;31m9[0m		[1;32m67[0m		[1;33mhas taken a fork[0m
+[1;31m9[0m		[1;32m67[0m		[1;33mhas taken a fork[0m
+[1;31m9[0m		[1;32m67[0m		[1;33mis eating[0m
+[1;31m9[0m		[1;32m69[0m		[1;33mhas taken a fork[0m
+[1;31m9[0m		[1;32m69[0m		[1;33mhas taken a fork[0m
+[1;31m9[0m		[1;32m69[0m		[1;33mis eating[0m
+[1;31m10[0m		[1;32m71[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m71[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m71[0m		[1;33mis eating[0m
+[1;31m10[0m		[1;32m73[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m73[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m73[0m		[1;33mis eating[0m
+[1;31m10[0m		[1;32m75[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m75[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m75[0m		[1;33mis eating[0m
+[1;31m10[0m		[1;32m77[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m77[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m77[0m		[1;33mis eating[0m
+[1;31m10[0m		[1;32m79[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m79[0m		[1;33mhas taken a fork[0m
+[1;31m10[0m		[1;32m79[0m		[1;33mis eating[0m
+[1;31m11[0m		[1;32m81[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m81[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m81[0m		[1;33mis eating[0m
+[1;31m11[0m		[1;32m83[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m83[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m83[0m		[1;33mis eating[0m
+[1;31m11[0m		[1;32m85[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m85[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m85[0m		[1;33mis eating[0m
+[1;31m11[0m		[1;32m87[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m87[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m87[0m		[1;33mis eating[0m
+[1;31m11[0m		[1;32m89[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m89[0m		[1;33mhas taken a fork[0m
+[1;31m11[0m		[1;32m89[0m		[1;33mis eating[0m
+[1;31m12[0m		[1;32m91[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m91[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m91[0m		[1;33mis eating[0m
+[1;31m12[0m		[1;32m93[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m93[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m93[0m		[1;33mis eating[0m
+[1;31m12[0m		[1;32m95[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m95[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m95[0m		[1;33mis eating[0m
+[1;31m12[0m		[1;32m97[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m97[0m		[1;33mhas taken a fork[0m
+[1;31m12[0m		[1;32m97[0m		[1;33mis eating[0m
+[1;31m13[0m		[1;32m99[0m		[1;33mhas taken a fork[0m
+[1;31m13[0m		[1;32m99[0m		[1;33mhas taken a fork[0m
+[1;31m13[0m		[1;32m99[0m		[1;33mis eating[0m
+[1;31m201[0m		[1;32m3[0m		[1;33mis sleeping[0m
+[1;31m201[0m		[1;32m2[0m		[1;33mhas taken a fork[0m
+[1;31m201[0m		[1;32m1[0m		[1;33mis sleeping[0m
+[1;31m201[0m		[1;32m5[0m		[1;33mis sleeping[0m
+[1;31m201[0m		[1;32m4[0m		[1;33mhas taken a fork[0m
+[1;31m201[0m		[1;32m4[0m		[1;33mhas taken a fork[0m
+[1;31m201[0m		[1;32m4[0m		[1;33mis eating[0m
+[1;31m201[0m		[1;32m2[0m		[1;33mhas taken a fork[0m
+[1;31m201[0m		[1;32m2[0m		[1;33mis eating[0m
+[1;31m202[0m		[1;32m7[0m		[1;33mis sleeping[0m
+[1;31m202[0m		[1;32m9[0m		[1;33mis sleeping[0m
+[1;31m202[0m		[1;32m6[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m8[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m8[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m8[0m		[1;33mis eating[0m
+[1;31m202[0m		[1;32m6[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m6[0m		[1;33mis eating[0m
+[1;31m202[0m		[1;32m11[0m		[1;33mis sleeping[0m
+[1;31m202[0m		[1;32m10[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m10[0m		[1;33mhas taken a fork[0m
+[1;31m202[0m		[1;32m10[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m21[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m13[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m19[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m25[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m17[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m29[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m27[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m31[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m23[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m12[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m16[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m12[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m16[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m12[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m20[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m18[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m18[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m18[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m16[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m30[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m30[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m30[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m15[0m		[1;33mis sleeping[0m
+[1;31m204[0m		[1;32m22[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m22[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m22[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m28[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m28[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m28[0m		[1;33mis eating[0m
+[1;31m204[0m		[1;32m20[0m		[1;33mhas taken a fork[0m
+[1;31m204[0m		[1;32m20[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m26[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m26[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m26[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m14[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m14[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m14[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m24[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m24[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m24[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m35[0m		[1;33mis sleeping[0m
+[1;31m205[0m		[1;32m34[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m34[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m37[0m		[1;33mis sleeping[0m
+[1;31m205[0m		[1;32m39[0m		[1;33mis sleeping[0m
+[1;31m205[0m		[1;32m41[0m		[1;33mis sleeping[0m
+[1;31m205[0m		[1;32m36[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m36[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m36[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m32[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m32[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m32[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m33[0m		[1;33mis sleeping[0m
+[1;31m205[0m		[1;32m38[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m38[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m38[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m34[0m		[1;33mis eating[0m
+[1;31m205[0m		[1;32m40[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m40[0m		[1;33mhas taken a fork[0m
+[1;31m205[0m		[1;32m40[0m		[1;33mis eating[0m
+[1;31m206[0m		[1;32m45[0m		[1;33mis sleeping[0m
+[1;31m206[0m		[1;32m44[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m47[0m		[1;33mis sleeping[0m
+[1;31m206[0m		[1;32m43[0m		[1;33mis sleeping[0m
+[1;31m206[0m		[1;32m46[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m46[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m46[0m		[1;33mis eating[0m
+[1;31m206[0m		[1;32m42[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m42[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m42[0m		[1;33mis eating[0m
+[1;31m206[0m		[1;32m44[0m		[1;33mhas taken a fork[0m
+[1;31m206[0m		[1;32m44[0m		[1;33mis eating[0m
+[1;31m207[0m		[1;32m49[0m		[1;33mis sleeping[0m
+[1;31m207[0m		[1;32m51[0m		[1;33mis sleeping[0m
+[1;31m207[0m		[1;32m53[0m		[1;33mis sleeping[0m
+[1;31m207[0m		[1;32m48[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m52[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m50[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m52[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m48[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m48[0m		[1;33mis eating[0m
+[1;31m207[0m		[1;32m52[0m		[1;33mis eating[0m
+[1;31m207[0m		[1;32m50[0m		[1;33mhas taken a fork[0m
+[1;31m207[0m		[1;32m50[0m		[1;33mis eating[0m
+[1;31m208[0m		[1;32m55[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m61[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m59[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m57[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m65[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m63[0m		[1;33mis sleeping[0m
+[1;31m208[0m		[1;32m62[0m		[1;33mhas taken a fork[0m
+[1;31m208[0m		[1;32m62[0m		[1;33mhas taken a fork[0m
+[1;31m208[0m		[1;32m62[0m		[1;33mis eating[0m
+[1;31m208[0m		[1;32m64[0m		[1;33mhas taken a fork[0m
+[1;31m208[0m		[1;32m64[0m		[1;33mhas taken a fork[0m
+[1;31m208[0m		[1;32m64[0m		[1;33mis eating[0m
+[1;31m208[0m		[1;32m56[0m		[1;33mhas taken a fork[0m
+[1;31m208[0m		[1;32m58[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m58[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m58[0m		[1;33mis eating[0m
+[1;31m209[0m		[1;32m56[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m60[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m60[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m54[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m54[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m54[0m		[1;33mis eating[0m
+[1;31m209[0m		[1;32m56[0m		[1;33mis eating[0m
+[1;31m209[0m		[1;32m60[0m		[1;33mis eating[0m
+[1;31m209[0m		[1;32m69[0m		[1;33mis sleeping[0m
+[1;31m209[0m		[1;32m68[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m67[0m		[1;33mis sleeping[0m
+[1;31m209[0m		[1;32m68[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m68[0m		[1;33mis eating[0m
+[1;31m209[0m		[1;32m66[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m66[0m		[1;33mhas taken a fork[0m
+[1;31m209[0m		[1;32m66[0m		[1;33mis eating[0m
+[1;31m210[0m		[1;32m75[0m		[1;33mis sleeping[0m
+[1;31m210[0m		[1;32m71[0m		[1;33mis sleeping[0m
+[1;31m210[0m		[1;32m74[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m79[0m		[1;33mis sleeping[0m
+[1;31m210[0m		[1;32m77[0m		[1;33mis sleeping[0m
+[1;31m210[0m		[1;32m78[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m78[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m78[0m		[1;33mis eating[0m
+[1;31m210[0m		[1;32m70[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m70[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m70[0m		[1;33mis eating[0m
+[1;31m210[0m		[1;32m74[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m74[0m		[1;33mis eating[0m
+[1;31m210[0m		[1;32m72[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m72[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m72[0m		[1;33mis eating[0m
+[1;31m210[0m		[1;32m73[0m		[1;33mis sleeping[0m
+[1;31m210[0m		[1;32m76[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m76[0m		[1;33mhas taken a fork[0m
+[1;31m210[0m		[1;32m76[0m		[1;33mis eating[0m
+[1;31m211[0m		[1;32m83[0m		[1;33mis sleeping[0m
+[1;31m211[0m		[1;32m85[0m		[1;33mis sleeping[0m
+[1;31m211[0m		[1;32m89[0m		[1;33mis sleeping[0m
+[1;31m211[0m		[1;32m87[0m		[1;33mis sleeping[0m
+[1;31m211[0m		[1;32m82[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m81[0m		[1;33mis sleeping[0m
+[1;31m211[0m		[1;32m84[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m82[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m82[0m		[1;33mis eating[0m
+[1;31m211[0m		[1;32m86[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m86[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m86[0m		[1;33mis eating[0m
+[1;31m211[0m		[1;32m84[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m84[0m		[1;33mis eating[0m
+[1;31m211[0m		[1;32m88[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m88[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m88[0m		[1;33mis eating[0m
+[1;31m211[0m		[1;32m80[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m80[0m		[1;33mhas taken a fork[0m
+[1;31m211[0m		[1;32m80[0m		[1;33mis eating[0m
+[1;31m212[0m		[1;32m91[0m		[1;33mis sleeping[0m
+[1;31m212[0m		[1;32m97[0m		[1;33mis sleeping[0m
+[1;31m212[0m		[1;32m95[0m		[1;33mis sleeping[0m
+[1;31m212[0m		[1;32m96[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m96[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m96[0m		[1;33mis eating[0m
+[1;31m212[0m		[1;32m93[0m		[1;33mis sleeping[0m
+[1;31m212[0m		[1;32m94[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m94[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m94[0m		[1;33mis eating[0m
+[1;31m212[0m		[1;32m90[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m90[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m90[0m		[1;33mis eating[0m
+[1;31m212[0m		[1;32m92[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m92[0m		[1;33mhas taken a fork[0m
+[1;31m212[0m		[1;32m92[0m		[1;33mis eating[0m
+[1;31m213[0m		[1;32m100[0m		[1;33mhas taken a fork[0m
+[1;31m213[0m		[1;32m99[0m		[1;33mis sleeping[0m
+[1;31m213[0m		[1;32m100[0m		[1;33mhas taken a fork[0m
+[1;31m213[0m		[1;32m100[0m		[1;33mis eating[0m
+[1;31m213[0m		[1;32m98[0m		[1;33mhas taken a fork[0m
+[1;31m213[0m		[1;32m98[0m		[1;33mhas taken a fork[0m
+[1;31m213[0m		[1;32m98[0m		[1;33mis eating[0m
+[1;31m401[0m		[1;32m4[0m		[1;33mis sleeping[0m
+[1;31m401[0m		[1;32m2[0m		[1;33mis sleeping[0m
+[1;31m401[0m		[1;32m3[0m		[1;33mis thinking[0m
+[1;31m401[0m		[1;32m3[0m		[1;33mhas taken a fork[0m
+[1;31m401[0m		[1;32m3[0m		[1;33mhas taken a fork[0m
+[1;31m401[0m		[1;32m3[0m		[1;33mis eating[0m
+[1;31m401[0m		[1;32m5[0m		[1;33mis thinking[0m
+[1;31m401[0m		[1;32m5[0m		[1;33mhas taken a fork[0m
+[1;31m401[0m		[1;32m1[0m		[1;33mis thinking[0m
+[1;31m402[0m		[1;32m6[0m		[1;33mis sleeping[0m
+[1;31m402[0m		[1;32m9[0m		[1;33mis thinking[0m
+[1;31m402[0m		[1;32m10[0m		[1;33mis sleeping[0m
+[1;31m402[0m		[1;32m5[0m		[1;33mhas taken a fork[0m
+[1;31m402[0m		[1;32m9[0m		[1;33mhas taken a fork[0m
+[1;31m402[0m		[1;32m9[0m		[1;33mhas taken a fork[0m
+[1;31m402[0m		[1;32m9[0m		[1;33mis eating[0m
+[1;31m402[0m		[1;32m5[0m		[1;33mis eating[0m
+[1;31m402[0m		[1;32m8[0m		[1;33mis sleeping[0m
+[1;31m402[0m		[1;32m11[0m		[1;33mis thinking[0m
+[1;31m402[0m		[1;32m7[0m		[1;33mis thinking[0m
+[1;31m402[0m		[1;32m7[0m		[1;33mhas taken a fork[0m
+[1;31m402[0m		[1;32m7[0m		[1;33mhas taken a fork[0m
+[1;31m402[0m		[1;32m7[0m		[1;33mis eating[0m
+[1;31m402[0m		[1;32m11[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m13[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m13[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m12[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m29[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m31[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m31[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m28[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m18[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m19[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m19[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m20[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m17[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m17[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m17[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m17[0m		[1;33mis eating[0m
+[1;31m404[0m		[1;32m11[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m30[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m11[0m		[1;33mis eating[0m
+[1;31m404[0m		[1;32m19[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m19[0m		[1;33mis eating[0m
+[1;31m404[0m		[1;32m25[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m15[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m23[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m29[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m29[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m29[0m		[1;33mis eating[0m
+[1;31m404[0m		[1;32m21[0m		[1;33mis thinking[0m
+[1;31m404[0m		[1;32m21[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m21[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m21[0m		[1;33mis eating[0m
+[1;31m404[0m		[1;32m16[0m		[1;33mis sleeping[0m
+[1;31m404[0m		[1;32m23[0m		[1;33mhas taken a fork[0m
+[1;31m404[0m		[1;32m22[0m		[1;33mis sleeping[0m
+[1;31m405[0m		[1;32m27[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m27[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m27[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m27[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m24[0m		[1;33mis sleeping[0m
+[1;31m405[0m		[1;32m41[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m41[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m37[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m37[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m37[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m37[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m15[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m15[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m15[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m33[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m34[0m		[1;33mis sleeping[0m
+[1;31m405[0m		[1;32m33[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m13[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m13[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m25[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m25[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m25[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m23[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m23[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m33[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m33[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m35[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m35[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m35[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m35[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m39[0m		[1;33mis thinking[0m
+[1;31m405[0m		[1;32m39[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m39[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m39[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m31[0m		[1;33mhas taken a fork[0m
+[1;31m405[0m		[1;32m31[0m		[1;33mis eating[0m
+[1;31m405[0m		[1;32m14[0m		[1;33mis sleeping[0m
+[1;31m405[0m		[1;32m32[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m26[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m36[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m46[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m40[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m45[0m		[1;33mis thinking[0m
+[1;31m406[0m		[1;32m42[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m47[0m		[1;33mis thinking[0m
+[1;31m406[0m		[1;32m47[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m44[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m43[0m		[1;33mis thinking[0m
+[1;31m406[0m		[1;32m43[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m43[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m43[0m		[1;33mis eating[0m
+[1;31m406[0m		[1;32m38[0m		[1;33mis sleeping[0m
+[1;31m406[0m		[1;32m41[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m41[0m		[1;33mis eating[0m
+[1;31m406[0m		[1;32m45[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m45[0m		[1;33mhas taken a fork[0m
+[1;31m406[0m		[1;32m45[0m		[1;33mis eating[0m
+[1;31m407[0m		[1;32m50[0m		[1;33mis sleeping[0m
+[1;31m407[0m		[1;32m48[0m		[1;33mis sleeping[0m
+[1;31m407[0m		[1;32m51[0m		[1;33mis thinking[0m
+[1;31m407[0m		[1;32m51[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m53[0m		[1;33mis thinking[0m
+[1;31m407[0m		[1;32m49[0m		[1;33mis thinking[0m
+[1;31m407[0m		[1;32m49[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m49[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m49[0m		[1;33mis eating[0m
+[1;31m407[0m		[1;32m47[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m47[0m		[1;33mis eating[0m
+[1;31m407[0m		[1;32m53[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m51[0m		[1;33mhas taken a fork[0m
+[1;31m407[0m		[1;32m51[0m		[1;33mis eating[0m
+[1;31m407[0m		[1;32m52[0m		[1;33mis sleeping[0m
+[1;31m408[0m		[1;32m59[0m		[1;33mis thinking[0m
+[1;31m408[0m		[1;32m64[0m		[1;33mis sleeping[0m
+[1;31m408[0m		[1;32m65[0m		[1;33mis thinking[0m
+[1;31m408[0m		[1;32m65[0m		[1;33mhas taken a fork[0m
+[1;31m408[0m		[1;32m62[0m		[1;33mis sleeping[0m
+[1;31m408[0m		[1;32m55[0m		[1;33mis thinking[0m
+[1;31m408[0m		[1;32m57[0m		[1;33mis thinking[0m
+[1;31m408[0m		[1;32m63[0m		[1;33mis thinking[0m
+[1;31m408[0m		[1;32m63[0m		[1;33mhas taken a fork[0m
+[1;31m408[0m		[1;32m63[0m		[1;33mhas taken a fork[0m
+[1;31m408[0m		[1;32m63[0m		[1;33mis eating[0m
+[1;31m408[0m		[1;32m61[0m		[1;33mis thinking[0m
+[1;31m409[0m		[1;32m54[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m56[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m58[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m60[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m69[0m		[1;33mis thinking[0m
+[1;31m409[0m		[1;32m66[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m67[0m		[1;33mis thinking[0m
+[1;31m409[0m		[1;32m67[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m65[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m67[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m67[0m		[1;33mis eating[0m
+[1;31m409[0m		[1;32m57[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m68[0m		[1;33mis sleeping[0m
+[1;31m409[0m		[1;32m57[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m57[0m		[1;33mis eating[0m
+[1;31m409[0m		[1;32m59[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m69[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m55[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m55[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m55[0m		[1;33mis eating[0m
+[1;31m409[0m		[1;32m53[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m53[0m		[1;33mis eating[0m
+[1;31m409[0m		[1;32m61[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m61[0m		[1;33mhas taken a fork[0m
+[1;31m409[0m		[1;32m61[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m59[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m71[0m		[1;33mis thinking[0m
+[1;31m410[0m		[1;32m59[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m71[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m76[0m		[1;33mis sleeping[0m
+[1;31m410[0m		[1;32m75[0m		[1;33mis thinking[0m
+[1;31m410[0m		[1;32m74[0m		[1;33mis sleeping[0m
+[1;31m410[0m		[1;32m72[0m		[1;33mis sleeping[0m
+[1;31m410[0m		[1;32m78[0m		[1;33mis sleeping[0m
+[1;31m410[0m		[1;32m77[0m		[1;33mis thinking[0m
+[1;31m410[0m		[1;32m77[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m77[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m79[0m		[1;33mis thinking[0m
+[1;31m410[0m		[1;32m75[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m75[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m70[0m		[1;33mis sleeping[0m
+[1;31m410[0m		[1;32m75[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m79[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m77[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m71[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m71[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m65[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m73[0m		[1;33mis thinking[0m
+[1;31m410[0m		[1;32m73[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m73[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m73[0m		[1;33mis eating[0m
+[1;31m410[0m		[1;32m69[0m		[1;33mhas taken a fork[0m
+[1;31m410[0m		[1;32m69[0m		[1;33mis eating[0m
+[1;31m411[0m		[1;32m80[0m		[1;33mis sleeping[0m
+[1;31m411[0m		[1;32m85[0m		[1;33mis thinking[0m
+[1;31m411[0m		[1;32m85[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m86[0m		[1;33mis sleeping[0m
+[1;31m411[0m		[1;32m89[0m		[1;33mis thinking[0m
+[1;31m411[0m		[1;32m89[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m79[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m79[0m		[1;33mis eating[0m
+[1;31m411[0m		[1;32m84[0m		[1;33mis sleeping[0m
+[1;31m411[0m		[1;32m81[0m		[1;33mis thinking[0m
+[1;31m411[0m		[1;32m81[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m81[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m81[0m		[1;33mis eating[0m
+[1;31m411[0m		[1;32m85[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m85[0m		[1;33mis eating[0m
+[1;31m411[0m		[1;32m83[0m		[1;33mis thinking[0m
+[1;31m411[0m		[1;32m83[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m83[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m83[0m		[1;33mis eating[0m
+[1;31m411[0m		[1;32m87[0m		[1;33mis thinking[0m
+[1;31m411[0m		[1;32m87[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m82[0m		[1;33mis sleeping[0m
+[1;31m411[0m		[1;32m88[0m		[1;33mis sleeping[0m
+[1;31m411[0m		[1;32m87[0m		[1;33mhas taken a fork[0m
+[1;31m411[0m		[1;32m87[0m		[1;33mis eating[0m
+[1;31m412[0m		[1;32m94[0m		[1;33mis sleeping[0m
+[1;31m412[0m		[1;32m91[0m		[1;33mis thinking[0m
+[1;31m412[0m		[1;32m97[0m		[1;33mis thinking[0m
+[1;31m412[0m		[1;32m90[0m		[1;33mis sleeping[0m
+[1;31m412[0m		[1;32m93[0m		[1;33mis thinking[0m
+[1;31m412[0m		[1;32m93[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m93[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m93[0m		[1;33mis eating[0m
+[1;31m412[0m		[1;32m91[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m92[0m		[1;33mis sleeping[0m
+[1;31m412[0m		[1;32m91[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m91[0m		[1;33mis eating[0m
+[1;31m412[0m		[1;32m97[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m96[0m		[1;33mis sleeping[0m
+[1;31m412[0m		[1;32m89[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m89[0m		[1;33mis eating[0m
+[1;31m412[0m		[1;32m95[0m		[1;33mis thinking[0m
+[1;31m412[0m		[1;32m95[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m95[0m		[1;33mhas taken a fork[0m
+[1;31m412[0m		[1;32m95[0m		[1;33mis eating[0m
+[1;31m413[0m		[1;32m98[0m		[1;33mis sleeping[0m
+[1;31m413[0m		[1;32m99[0m		[1;33mis thinking[0m
+[1;31m413[0m		[1;32m99[0m		[1;33mhas taken a fork[0m
+[1;31m413[0m		[1;32m99[0m		[1;33mhas taken a fork[0m
+[1;31m413[0m		[1;32m99[0m		[1;33mis eating[0m
+[1;31m413[0m		[1;32m97[0m		[1;33mhas taken a fork[0m
+[1;31m413[0m		[1;32m97[0m		[1;33mis eating[0m
+[1;31m413[0m		[1;32m1[0m		[1;33mhas taken a fork[0m
+[1;31m413[0m		[1;32m100[0m		[1;33mis sleeping[0m
+[1;31m413[0m		[1;32m1[0m		[1;33mhas taken a fork[0m
+[1;31m413[0m		[1;32m1[0m		[1;33mis eating[0m
+[1;31m601[0m		[1;32m2[0m		[1;33mis thinking[0m
+[1;31m601[0m		[1;32m4[0m		[1;33mis thinking[0m
+[1;31m601[0m		[1;32m3[0m		[1;33mis sleeping[0m
+[1;31m601[0m		[1;32m2[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m7[0m		[1;33mis sleeping[0m
+[1;31m602[0m		[1;32m9[0m		[1;33mis sleeping[0m
+[1;31m602[0m		[1;32m6[0m		[1;33mis thinking[0m
+[1;31m602[0m		[1;32m6[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m5[0m		[1;33mis sleeping[0m
+[1;31m602[0m		[1;32m10[0m		[1;33mis thinking[0m
+[1;31m602[0m		[1;32m8[0m		[1;33mis thinking[0m
+[1;31m602[0m		[1;32m8[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m8[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m8[0m		[1;33mis eating[0m
+[1;31m602[0m		[1;32m6[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m4[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m4[0m		[1;33mhas taken a fork[0m
+[1;31m602[0m		[1;32m4[0m		[1;33mis eating[0m
+[1;31m602[0m		[1;32m6[0m		[1;33mis eating[0m
+[1;31m604[0m		[1;32m28[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m19[0m		[1;33mis sleeping[0m
+[1;31m604[0m		[1;32m11[0m		[1;33mis sleeping[0m
+[1;31m604[0m		[1;32m17[0m		[1;33mis sleeping[0m
+[1;31m604[0m		[1;32m21[0m		[1;33mis sleeping[0m
+[1;31m604[0m		[1;32m18[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m18[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m18[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m18[0m		[1;33mis eating[0m
+[1;31m604[0m		[1;32m10[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m10[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m10[0m		[1;33mis eating[0m
+[1;31m604[0m		[1;32m16[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m16[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m20[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m20[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m20[0m		[1;33mhas taken a fork[0m
+[1;31m604[0m		[1;32m20[0m		[1;33mis eating[0m
+[1;31m604[0m		[1;32m30[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m12[0m		[1;33mis thinking[0m
+[1;31m604[0m		[1;32m29[0m		[1;33mis sleeping[0m
+[1;31m604[0m		[1;32m28[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m14[0m		[1;33mis thinking[0m
+[1;31m605[0m		[1;32m13[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m15[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m23[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m24[0m		[1;33mis thinking[0m
+[1;31m605[0m		[1;32m34[0m		[1;33mis thinking[0m
+[1;31m605[0m		[1;32m34[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m39[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m22[0m		[1;33mis thinking[0m
+[1;31m605[0m		[1;32m22[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m22[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m22[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m25[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m33[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m12[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m12[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m12[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m16[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m16[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m35[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m28[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m28[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m30[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m24[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m24[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m24[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m37[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m14[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m14[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m14[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m31[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m27[0m		[1;33mis sleeping[0m
+[1;31m605[0m		[1;32m30[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m30[0m		[1;33mis eating[0m
+[1;31m605[0m		[1;32m34[0m		[1;33mhas taken a fork[0m
+[1;31m605[0m		[1;32m34[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m46[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m40[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m42[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m43[0m		[1;33mis sleeping[0m
+[1;31m606[0m		[1;32m36[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m36[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m36[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m36[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m38[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m38[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m38[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m38[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m32[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m32[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m32[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m32[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m44[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m26[0m		[1;33mis thinking[0m
+[1;31m606[0m		[1;32m42[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m44[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m44[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m44[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m41[0m		[1;33mis sleeping[0m
+[1;31m606[0m		[1;32m40[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m42[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m42[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m40[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m40[0m		[1;33mis eating[0m
+[1;31m606[0m		[1;32m45[0m		[1;33mis sleeping[0m
+[1;31m606[0m		[1;32m26[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m26[0m		[1;33mhas taken a fork[0m
+[1;31m606[0m		[1;32m26[0m		[1;33mis eating[0m
+[1;31m607[0m		[1;32m47[0m		[1;33mis sleeping[0m
+[1;31m607[0m		[1;32m52[0m		[1;33mis thinking[0m
+[1;31m607[0m		[1;32m46[0m		[1;33mhas taken a fork[0m
+[1;31m607[0m		[1;32m48[0m		[1;33mis thinking[0m
+[1;31m607[0m		[1;32m46[0m		[1;33mhas taken a fork[0m
+[1;31m607[0m		[1;32m50[0m		[1;33mis thinking[0m
+[1;31m607[0m		[1;32m46[0m		[1;33mis eating[0m
+[1;31m607[0m		[1;32m49[0m		[1;33mis sleeping[0m
+[1;31m607[0m		[1;32m48[0m		[1;33mhas taken a fork[0m
+[1;31m607[0m		[1;32m48[0m		[1;33mhas taken a fork[0m
+[1;31m607[0m		[1;32m48[0m		[1;33mis eating[0m
+[1;31m608[0m		[1;32m63[0m		[1;33mis sleeping[0m
+[1;31m608[0m		[1;32m64[0m		[1;33mis thinking[0m
+[1;31m608[0m		[1;32m62[0m		[1;33mis thinking[0m
+[1;31m608[0m		[1;32m51[0m		[1;33mis sleeping[0m
+[1;31m608[0m		[1;32m50[0m		[1;33mhas taken a fork[0m
+[1;31m608[0m		[1;32m50[0m		[1;33mhas taken a fork[0m
+[1;31m608[0m		[1;32m50[0m		[1;33mis eating[0m
+[1;31m608[0m		[1;32m62[0m		[1;33mhas taken a fork[0m
+[1;31m609[0m		[1;32m61[0m		[1;33mis sleeping[0m
+[1;31m609[0m		[1;32m57[0m		[1;33mis sleeping[0m
+[1;31m609[0m		[1;32m67[0m		[1;33mis sleeping[0m
+[1;31m609[0m		[1;32m53[0m		[1;33mis sleeping[0m
+[1;31m609[0m		[1;32m54[0m		[1;33mis thinking[0m
+[1;31m609[0m		[1;32m54[0m		[1;33mhas taken a fork[0m
+[1;31m609[0m		[1;32m54[0m		[1;33mhas taken a fork[0m
+[1;31m609[0m		[1;32m54[0m		[1;33mis eating[0m
+[1;31m609[0m		[1;32m58[0m		[1;33mis thinking[0m
+[1;31m609[0m		[1;32m68[0m		[1;33mis thinking[0m
+[1;31m609[0m		[1;32m56[0m		[1;33mis thinking[0m
+[1;31m609[0m		[1;32m56[0m		[1;33mhas taken a fork[0m
+[1;31m609[0m		[1;32m56[0m		[1;33mhas taken a fork[0m
+[1;31m609[0m		[1;32m56[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m62[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m62[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m55[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m60[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m60[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m70[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m66[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m66[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m65[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m71[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m76[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m76[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m69[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m73[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m75[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m52[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m77[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m52[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m52[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m66[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m70[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m66[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m76[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m60[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m60[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m76[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m68[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m68[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m68[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m78[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m74[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m74[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m74[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m74[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m72[0m		[1;33mis thinking[0m
+[1;31m610[0m		[1;32m72[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m72[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m72[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m70[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m70[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m58[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m59[0m		[1;33mis sleeping[0m
+[1;31m610[0m		[1;32m58[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m58[0m		[1;33mis eating[0m
+[1;31m610[0m		[1;32m64[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m64[0m		[1;33mhas taken a fork[0m
+[1;31m610[0m		[1;32m64[0m		[1;33mis eating[0m
+[1;31m611[0m		[1;32m80[0m		[1;33mis thinking[0m
+[1;31m611[0m		[1;32m88[0m		[1;33mis thinking[0m
+[1;31m611[0m		[1;32m82[0m		[1;33mis thinking[0m
+[1;31m611[0m		[1;32m87[0m		[1;33mis sleeping[0m
+[1;31m611[0m		[1;32m83[0m		[1;33mis sleeping[0m
+[1;31m611[0m		[1;32m84[0m		[1;33mis thinking[0m
+[1;31m611[0m		[1;32m84[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m84[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m84[0m		[1;33mis eating[0m
+[1;31m611[0m		[1;32m79[0m		[1;33mis sleeping[0m
+[1;31m611[0m		[1;32m81[0m		[1;33mis sleeping[0m
+[1;31m611[0m		[1;32m82[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m78[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m82[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m82[0m		[1;33mis eating[0m
+[1;31m611[0m		[1;32m85[0m		[1;33mis sleeping[0m
+[1;31m611[0m		[1;32m78[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m78[0m		[1;33mis eating[0m
+[1;31m611[0m		[1;32m86[0m		[1;33mis thinking[0m
+[1;31m611[0m		[1;32m86[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m80[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m80[0m		[1;33mhas taken a fork[0m
+[1;31m611[0m		[1;32m80[0m		[1;33mis eating[0m
+[1;31m612[0m		[1;32m89[0m		[1;33mis sleeping[0m
+[1;31m612[0m		[1;32m94[0m		[1;33mis thinking[0m
+[1;31m612[0m		[1;32m86[0m		[1;33mhas taken a fork[0m
+[1;31m612[0m		[1;32m86[0m		[1;33mis eating[0m
+[1;31m612[0m		[1;32m95[0m		[1;33mis sleeping[0m
+[1;31m612[0m		[1;32m92[0m		[1;33mis thinking[0m
+[1;31m612[0m		[1;32m91[0m		[1;33mis sleeping[0m
+[1;31m613[0m		[1;32m90[0m		[1;33mis thinking[0m
+[1;31m613[0m		[1;32m90[0m		[1;33mhas taken a fork[0m
+[1;31m613[0m		[1;32m90[0m		[1;33mhas taken a fork[0m
+[1;31m613[0m		[1;32m90[0m		[1;33mis eating[0m
+[1;31m613[0m		[1;32m2[0m		[1;33mdied[0m
