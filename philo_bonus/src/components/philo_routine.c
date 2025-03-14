@@ -6,16 +6,16 @@
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:37:56 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 02:05:07 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/philo.h"
 
-void	*death_monitor(void *arg)
+void *death_monitor(void *arg)
 {
-	t_philosopher	*philo;
-	long long		current_time;
+	t_philosopher *philo;
+	long long current_time;
 
 	philo = (t_philosopher *)arg;
 	while (1)
@@ -26,12 +26,12 @@ void	*death_monitor(void *arg)
 		{
 			print_status(philo, "died");
 			sem_post(philo->shared->done_sem);
-			exit(1);
+			return NULL;
 		}
 		sem_post(philo->shared->meal_check_sem);
 		usleep(1000);
 	}
-	return (NULL);
+	return NULL;
 }
 
 void	eat(t_philosopher *philo)
@@ -53,12 +53,19 @@ void	eat(t_philosopher *philo)
 	sem_post(philo->shared->forks_sem);
 }
 
-void	philosopher_routine(t_philosopher *philo)
+void philosopher_routine(t_philosopher *philo)
 {
-	pthread_t	death_thread;
+	pthread_t death_thread;
 
 	if (pthread_create(&death_thread, NULL, death_monitor, philo) != 0)
+	{
+		sem_close(philo->shared->forks_sem);
+		sem_close(philo->shared->print_sem);
+		sem_close(philo->shared->meal_check_sem);
+		sem_close(philo->shared->done_sem);
+		sem_close(philo->shared->all_ate_sem);
 		exit(1);
+	}
 	pthread_detach(death_thread);
 	if (philo->id % 2 == 0)
 		usleep(1000 * philo->shared->time_to_eat / 2);
