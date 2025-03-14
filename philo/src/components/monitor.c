@@ -72,7 +72,7 @@ void	*monitor_routine(void *arg)
 		mini_lop(philo, i, &philosophers_done_eating);
 		if (check(philo, philosophers_done_eating) == 0)
 			return (NULL);
-		usleep(5000);
+		usleep(100);
 	}
 	return (NULL);
 }
