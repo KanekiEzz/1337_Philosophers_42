@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo_routine.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 02:05:07 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/14 03:38:12 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,9 @@ void *death_monitor(void *arg)
 	return NULL;
 }
 
-void	eat(t_philosopher *philo)
+void eat(t_philosopher *philo)
 {
+	usleep(1000);
 	sem_wait(philo->shared->forks_sem);
 	print_status(philo, "has taken a fork");
 	sem_wait(philo->shared->forks_sem);
