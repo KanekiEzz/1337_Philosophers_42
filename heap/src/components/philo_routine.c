@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo_routine.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:20:58 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 01:23:34 by marvin           ###   ########.fr       */
+/*   Updated: 2025/03/14 02:05:07 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,24 @@
 
 void *death_monitor(void *arg)
 {
-    t_philosopher *philo;
-    long long current_time;
+	t_philosopher *philo;
+	long long current_time;
 
-    philo = (t_philosopher *)arg;
-    while (1)
-    {
-        sem_wait(philo->shared->meal_check_sem);
-        current_time = get_time();
-        if (current_time - philo->last_meal_time > philo->shared->time_to_die)
-        {
-            print_status(philo, "died");
-            sem_post(philo->shared->done_sem);
-            // Clean up semaphores before exiting
-            sem_close(philo->shared->forks_sem);
-            sem_close(philo->shared->print_sem);
-            sem_close(philo->shared->meal_check_sem);
-            sem_close(philo->shared->done_sem);
-            sem_close(philo->shared->all_ate_sem);
-            exit(1);
-        }
-        sem_post(philo->shared->meal_check_sem);
-        usleep(1000);
-    }
-    return (NULL);
+	philo = (t_philosopher *)arg;
+	while (1)
+	{
+		sem_wait(philo->shared->meal_check_sem);
+		current_time = get_time();
+		if (current_time - philo->last_meal_time > philo->shared->time_to_die)
+		{
+			print_status(philo, "died");
+			sem_post(philo->shared->done_sem);
+			return NULL;
+		}
+		sem_post(philo->shared->meal_check_sem);
+		usleep(1000);
+	}
+	return NULL;
 }
 
 void	eat(t_philosopher *philo)
@@ -61,26 +55,25 @@ void	eat(t_philosopher *philo)
 
 void philosopher_routine(t_philosopher *philo)
 {
-    pthread_t death_thread;
+	pthread_t death_thread;
 
-    if (pthread_create(&death_thread, NULL, death_monitor, philo) != 0)
-    {
-        // Close semaphores before exiting
-        sem_close(philo->shared->forks_sem);
-        sem_close(philo->shared->print_sem);
-        sem_close(philo->shared->meal_check_sem);
-        sem_close(philo->shared->done_sem);
-        sem_close(philo->shared->all_ate_sem);
-        exit(1);
-    }
-    pthread_detach(death_thread);
-    if (philo->id % 2 == 0)
-        usleep(1000 * philo->shared->time_to_eat / 2);
-    while (1)
-    {
-        eat(philo);
-        print_status(philo, "is sleeping");
-        smart_sleep(philo->shared->time_to_sleep);
-        print_status(philo, "is thinking");
-    }
+	if (pthread_create(&death_thread, NULL, death_monitor, philo) != 0)
+	{
+		sem_close(philo->shared->forks_sem);
+		sem_close(philo->shared->print_sem);
+		sem_close(philo->shared->meal_check_sem);
+		sem_close(philo->shared->done_sem);
+		sem_close(philo->shared->all_ate_sem);
+		exit(1);
+	}
+	pthread_detach(death_thread);
+	if (philo->id % 2 == 0)
+		usleep(1000 * philo->shared->time_to_eat / 2);
+	while (1)
+	{
+		eat(philo);
+		print_status(philo, "is sleeping");
+		smart_sleep(philo->shared->time_to_sleep);
+		print_status(philo, "is thinking");
+	}
 }

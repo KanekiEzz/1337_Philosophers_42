@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 12:38:30 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 01:29:31 by marvin           ###   ########.fr       */
+/*   Updated: 2025/03/14 02:03:03 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,26 +58,6 @@ void	philo_cleanup(t_philo *philo)
 	if (philo->pids)
 		free(philo->pids);
 }
-// void handle_signal(int signal)
-// {
-//     // Global variable to access philo structure
-//     // Or use a different approach to access philo
-//     philo_cleanup(philo);
-//     exit(signal);
-// }
-
-// void setup_signal_handlers(t_philo *philo)
-// {
-//     // Set up signal handlers for SIGINT and SIGTERM
-//     struct sigaction sa;
-//     sa.sa_handler = handle_signal;
-//     sigemptyset(&sa.sa_mask);
-//     sa.sa_flags = 0;
-//     sigaction(SIGINT, &sa, NULL);
-//     sigaction(SIGTERM, &sa, NULL);
-// }
-
-
 
 int	main(int ac, char **av)
 {

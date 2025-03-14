@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   monitor.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 23:10:55 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/14 01:24:37 by marvin           ###   ########.fr       */
+/*   Updated: 2025/03/14 02:03:39 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,32 +31,32 @@ void	*meal_monitor(void *arg)
 
 void cleanup_child_process(t_philosopher *philo)
 {
-    sem_close(philo->shared->forks_sem);
-    sem_close(philo->shared->print_sem);
-    sem_close(philo->shared->meal_check_sem);
-    sem_close(philo->shared->done_sem);
-    sem_close(philo->shared->all_ate_sem);
+	sem_close(philo->shared->forks_sem);
+	sem_close(philo->shared->print_sem);
+	sem_close(philo->shared->meal_check_sem);
+	sem_close(philo->shared->done_sem);
+	sem_close(philo->shared->all_ate_sem);
 }
 
 int create_philosopher_processes(t_philo *philo)
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (i < philo->number_of_philosophers)
-    {
-        philo->pids[i] = fork();
-        if (philo->pids[i] == -1)
-            return (1);
-        else if (philo->pids[i] == 0)
-        {
-            philosopher_routine(&philo->philosophers[i]);
-            cleanup_child_process(&philo->philosophers[i]);
-            exit(0);
-        }
-        i++;
-    }
-    return (0);
+	i = 0;
+	while (i < philo->number_of_philosophers)
+	{
+		philo->pids[i] = fork();
+		if (philo->pids[i] == -1)
+			return (1);
+		else if (philo->pids[i] == 0)
+		{
+			philosopher_routine(&philo->philosophers[i]);
+			cleanup_child_process(&philo->philosophers[i]);
+			exit(0);
+		}
+		i++;
+	}
+	return (0);
 }
 
 int	start_meal_monitor(t_philo *philo)
@@ -72,19 +72,20 @@ int	start_meal_monitor(t_philo *philo)
 	return (0);
 }
 
-void	stop_simulation(t_philo *philo)
+void stop_simulation(t_philo *philo)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (i < philo->number_of_philosophers)
 	{
 		if (philo->pids[i] > 0)
+		{
 			kill(philo->pids[i], SIGTERM);
+			waitpid(philo->pids[i], NULL, 0);
+		}
 		i++;
 	}
-	while (waitpid(-1, NULL, 0) > 0)
-		;
 }
 
 int	start_simulation(t_philo *philo)
