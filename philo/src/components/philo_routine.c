@@ -51,6 +51,20 @@ void	eat_one_philo(t_philosopher *philo)
 	return ;
 }
 
+void	smart_sleepp(t_philosopher *philo, long long time)
+{
+	long long	start;
+
+	start = get_time();
+	while ((get_time() - start) < time)
+	{
+		if (philo->shared->stop_simulation == 1)
+			break ;
+		usleep(100);
+	}
+	return ;
+}
+
 void	*philosopher_routine(void *arg)
 {
 	t_philosopher	*philo;
@@ -74,7 +88,7 @@ void	*philosopher_routine(void *arg)
 		if (should_stop)
 			break ;
 		print_status(philo, "is sleeping");
-		smart_sleep(philo->shared->time_to_sleep);
+		smart_sleepp(philo, philo->shared->time_to_sleep);
 		print_status(philo, "is thinking");
 	}
 	return (NULL);

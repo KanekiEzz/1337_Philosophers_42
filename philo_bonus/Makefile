@@ -4,16 +4,16 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 
-SRCS =	./src/philo.c \
-		./src/components/monitor.c \
-		./src/components/philo_init.c \
-		./src/components/philo_routine.c \
-		./src/components/philo_utils.c \
-		./src/lib/ft_atof.c \
-		./src/lib/ft_putchar.c \
-		./src/lib/ft_putstr.c \
-		./src/lib/ft_strcmp.c \
-		./src/lib/ft_strlen.c \
+SRCS =	./src/philo_bonus.c \
+		./src/components/monitor_bonus.c \
+		./src/components/philo_init_bonus.c \
+		./src/components/philo_routine_bonus.c \
+		./src/components/philo_utils_bonus.c \
+		./src/lib/ft_atof_bonus.c \
+		./src/lib/ft_putchar_bonus.c \
+		./src/lib/ft_putstr_bonus.c \
+		./src/lib/ft_strcmp_bonus.c \
+		./src/lib/ft_strlen_bonus.c \
 
 OBJS = $(SRCS:.c=.o)
 
@@ -21,7 +21,7 @@ OBJS = $(SRCS:.c=.o)
 $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o  $(NAME)  -lpthread
 
-%.o: %.c ./include/philo.h
+%.o: %.c ./include/philo_bonus.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 all: $(NAME)

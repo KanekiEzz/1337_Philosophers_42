@@ -1,20 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/29 12:47:17 by iezzam            #+#    #+#             */
-/*   Updated: 2025/01/29 12:50:56 by iezzam           ###   ########.fr       */
+/*   Created: 2025/01/29 12:47:29 by iezzam            #+#    #+#             */
+/*   Updated: 2025/01/29 12:51:01 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/philo.h"
+#include "../../include/philo_bonus.h"
 
-void	ft_putchar(char c)
+void	ft_putstr(char *s)
 {
-	if (write(1, &c, 1) == -1)
+	int	i;
+
+	if (!s)
 		return ;
-	return ;
+	i = 0;
+	while (s[i])
+		ft_putchar(s[i++]);
 }

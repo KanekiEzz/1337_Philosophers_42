@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   philo_init.c                                       :+:      :+:    :+:   */
+/*   philo_init_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 13:21:41 by iezzam            #+#    #+#             */
-/*   Updated: 2025/03/11 23:13:01 by iezzam           ###   ########.fr       */
+/*   Updated: 2025/03/15 06:09:38 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/philo.h"
+#include "../../include/philo_bonus.h"
 
 int	initialize_philosophers(t_philo *philo)
 {

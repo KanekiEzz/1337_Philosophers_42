@@ -1,23 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iezzam <iezzam@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/29 12:48:02 by iezzam            #+#    #+#             */
-/*   Updated: 2025/01/29 12:51:15 by iezzam           ###   ########.fr       */
+/*   Created: 2025/01/29 12:47:17 by iezzam            #+#    #+#             */
+/*   Updated: 2025/01/29 12:50:56 by iezzam           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/philo.h"
+#include "../../include/philo_bonus.h"
 
-size_t	ft_strlen(const char *s)
+void	ft_putchar(char c)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i++] != '\0')
-		;
-	return (--i);
+	if (write(1, &c, 1) == -1)
+		return ;
+	return ;
 }
