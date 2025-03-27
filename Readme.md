@@ -1,3 +1,12 @@
+<h1 align="center">1337🇲🇦_Philosophers_42  Kaneki</h1>
+<p align="center">
+  <a href="https://github.com/KanekiEzz/1337_Philosophers_42">
+    <img src="https://raw.githubusercontent.com/KanekiEzz/kaneki_badges/refs/heads/main/philosophersm.png" alt="42 Badge">
+  </a>
+</p>
+
+
+---
 ## **🧠 Logic, Objective, and Explanation of `philo` Implementation**  
 
 The `philo` project simulates the **Dining Philosophers Problem**, where multiple philosophers sit at a table and must alternate between eating, sleeping, and thinking while sharing limited resources (forks). The challenge is to avoid **deadlocks** and **race conditions** while following the **rules of concurrency**.
@@ -16,10 +25,7 @@ The `philo` project simulates the **Dining Philosophers Problem**, where multipl
    - **Sleeping** 😴  
 4. **Monitor for Deaths:**  
    If a philosopher goes too long without eating (`time_to_die`), the simulation **stops immediately**.
-5. **Follow 1337 Coding Standards:**  
-   - No **global variables**
-   - Code must be **efficient and well-structured**
-   - Threads and mutexes must be **properly managed**
+
 
 ---
 
@@ -109,26 +115,25 @@ Here's a **flowchart** explaining the logic of the `philo` project, including th
 
 ---
 
-I'll generate a clear **flowchart image** for you. One moment! 🎨🖥️
-
-# <img src="https://raw.githubusercontent.com/KanekiEzz/1337_Philosophers_42/refs/heads/main/public/Philosophers.jpg?token=GHSAT0AAAAAAC5W4VQHKTII677PSUJ3ZWUMZ43QUKQ" width="300">
-
-
 
 
 Here’s your flowchart! 📊 This visually explains the logic behind the `philo` project, including the main process, philosopher threads, and the monitor system 🚀.
 
+# Philosophers Thread Flow
+
+## Main Thread
+```
 
 
 
- ┌──────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────┐
 │                     Main Thread                  │
-│ ─────────────────────────────────────────────── │
+│ ───────────────────────────────────────────────  │
 │  1. Initialize Data                              │
-│  2. Start Philosopher Threads                   │
-│  3. Start Monitor Thread                        │
-│  4. Wait for Monitor Thread (pthread_join)      │
-│  5. Cleanup Resources and Exit                  │
+│  2. Start Philosopher Threads                    │
+│  3. Start Monitor Thread                         │
+│  4. Wait for Monitor Thread (pthread_join)       │
+│  5. Cleanup Resources and Exit                   │
 └──────────────────────────────────────────────────┘
 
                  ⬇️
@@ -169,3 +174,4 @@ Here’s your flowchart! 📊 This visually explains the logic behind the `philo
 │  - If All Have Eaten → Stops │
 │  - Uses `stop_simulation` 🚨  │
 └───────────────────────────────┘
+```
